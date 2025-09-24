@@ -5,33 +5,91 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      description: "Plataforma de comercio electrónico completa con React y Node.js",
-      image: "/api/placeholder/300/200",
-      technologies: ["React", "Node.js", "MongoDB", "Express"],
-      liveUrl: "https://ejemplo.com",
-      githubUrl: "https://github.com/jnaveros40/proyecto1",
-      status: "Ready"
+      title: "InmoSofts",
+      description: "Plataforma de software inmobiliario completa con gestión de propiedades, CRM y herramientas de análisis para el sector inmobiliario.",
+      image: "/api/placeholder/400/250",
+      technologies: ["React", "Node.js", "PostgreSQL", "Material-UI"],
+      liveUrl: "https://inmosofts.vercel.app/",
+      githubUrl: "https://github.com/jnaveros40",
+      status: "Ready",
+      category: "Web Application"
     },
     {
       id: 2,
-      title: "Task Management App",
-      description: "Aplicación de gestión de tareas con funciones colaborativas",
-      image: "/api/placeholder/300/200",
-      technologies: ["Vue.js", "Firebase", "CSS3"],
-      liveUrl: "https://ejemplo2.com",
-      githubUrl: "https://github.com/jnaveros40/proyecto2",
-      status: "In Development"
+      title: "Grupo Ceiba Colombia",
+      description: "Sitio web corporativo para empresa de construcción y desarrollo inmobiliario con portafolio de proyectos y servicios.",
+      image: "/api/placeholder/400/250",
+      technologies: ["React", "CSS3", "JavaScript", "Responsive Design"],
+      liveUrl: "https://grupoceibacolombia.com.co/",
+      githubUrl: "https://github.com/jnaveros40",
+      status: "Ready",
+      category: "Corporate Website"
     },
     {
       id: 3,
-      title: "Weather Dashboard",
-      description: "Dashboard meteorológico con APIs en tiempo real",
-      image: "/api/placeholder/300/200",
-      technologies: ["JavaScript", "API REST", "Chart.js"],
-      liveUrl: "https://ejemplo3.com",
-      githubUrl: "https://github.com/jnaveros40/proyecto3",
-      status: "Ready"
+      title: "Scouting Goal",
+      description: "Plataforma de scouting deportivo para análisis y seguimiento de jugadores de fútbol con estadísticas avanzadas.",
+      image: "/api/placeholder/400/250",
+      technologies: ["React", "Chart.js", "API REST", "Bootstrap"],
+      liveUrl: "https://scoutingoal.vercel.app/",
+      githubUrl: "https://github.com/jnaveros40",
+      status: "Ready",
+      category: "Sports Analytics"
+    },
+    {
+      id: 4,
+      title: "Atomic Ed Vision",
+      description: "Plataforma educativa innovadora con contenido interactivo y herramientas de aprendizaje adaptativo.",
+      image: "/api/placeholder/400/250",
+      technologies: ["React", "TypeScript", "Firebase", "Tailwind CSS"],
+      liveUrl: "https://atomic-ed-vision.vercel.app/",
+      githubUrl: "https://github.com/jnaveros40",
+      status: "Ready",
+      category: "EdTech Platform"
+    },
+    {
+      id: 5,
+      title: "Learn AI",
+      description: "Plataforma de aprendizaje de inteligencia artificial con cursos interactivos y laboratorios prácticos.",
+      image: "/api/placeholder/400/250",
+      technologies: ["Next.js", "Python", "TensorFlow", "OpenAI API"],
+      liveUrl: "https://learn-ai-nu-seven.vercel.app/",
+      githubUrl: "https://github.com/jnaveros40",
+      status: "Ready",
+      category: "AI Education"
+    },
+    {
+      id: 6,
+      title: "JN Finanza Web",
+      description: "Aplicación web de gestión financiera personal con análisis de gastos, presupuestos y planificación financiera.",
+      image: "/api/placeholder/400/250",
+      technologies: ["React", "Node.js", "MongoDB", "Chart.js"],
+      liveUrl: "https://jn-finanza-web.vercel.app/",
+      githubUrl: "https://github.com/jnaveros40",
+      status: "Ready",
+      category: "FinTech"
+    },
+    {
+      id: 7,
+      title: "Esencia Viva",
+      description: "E-commerce de productos naturales y orgánicos con sistema de pedidos y gestión de inventario.",
+      image: "/api/placeholder/400/250",
+      technologies: ["React", "Stripe", "Node.js", "CSS3"],
+      liveUrl: "https://esencia-viva.vercel.app/",
+      githubUrl: "https://github.com/jnaveros40",
+      status: "Ready",
+      category: "E-Commerce"
+    },
+    {
+      id: 8,
+      title: "Lujo Real",
+      description: "Plataforma de bienes raíces de lujo con búsqueda avanzada, tours virtuales y gestión de propiedades premium.",
+      image: "/api/placeholder/400/250",
+      technologies: ["React", "Google Maps API", "Node.js", "PostgreSQL"],
+      liveUrl: "https://lujoreal.vercel.app/",
+      githubUrl: "https://github.com/jnaveros40",
+      status: "Ready",
+      category: "Real Estate"
     }
   ];
 
@@ -39,8 +97,8 @@ const Projects = () => {
     <section id="projects" className="projects">
       <div className="container">
         <div className="projects-header">
-          <h2>Proyectos</h2>
-          <p>Algunos de los proyectos en los que he trabajado</p>
+          <h2>Portfolio de Proyectos</h2>
+          <p>Proyectos reales desarrollados con tecnologías modernas y mejores prácticas</p>
         </div>
         
         <div className="projects-grid">
@@ -51,18 +109,19 @@ const Projects = () => {
                 <div className="project-overlay">
                   <div className="project-links">
                     <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="btn btn-sm">
-                      Ver Demo
+                      Ver aplicativo
                     </a>
-                    <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline">
-                      Código
-                    </a>
+                    
                   </div>
                 </div>
               </div>
               
               <div className="project-content">
                 <div className="project-header">
-                  <h3>{project.title}</h3>
+                  <div className="project-title-section">
+                    <h3>{project.title}</h3>
+                    <span className="project-category">{project.category}</span>
+                  </div>
                   <span className={`status ${project.status.toLowerCase().replace(' ', '-')}`}>
                     {project.status}
                   </span>
@@ -79,8 +138,22 @@ const Projects = () => {
         </div>
         
         <div className="projects-footer">
-          <a href="https://github.com/jnaveros40" target="_blank" rel="noopener noreferrer" className="btn btn-outline">
-            Ver todos los proyectos en GitHub
+          <div className="projects-stats">
+            <div className="stat-item">
+              <h4>8+</h4>
+              <span>Proyectos Completados</span>
+            </div>
+            <div className="stat-item">
+              <h4>100%</h4>
+              <span>Proyectos Entregados</span>
+            </div>
+            <div className="stat-item">
+              <h4>5+</h4>
+              <span>Tecnologías Dominadas</span>
+            </div>
+          </div>
+          <a href="https://github.com/jnaveros40" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+            Ver más proyectos en GitHub
           </a>
         </div>
       </div>
