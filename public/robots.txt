@@ -1,3 +1,17 @@
 # https://www.robotstxt.org/robotstxt.html
+# Juan Naveros Portfolio Professional
 User-agent: *
-Disallow:
+Allow: /
+
+# Sitemap
+Sitemap: https://jnaveros40.github.io/Ing_Navs/sitemap.xml
+
+# Allow all common web crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /

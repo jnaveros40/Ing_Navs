@@ -7,7 +7,7 @@ const Header = () => {
       <nav className="nav">
         <div className="nav-brand">
           <img src="/web/icon-192.png" alt="Juan Naveros Logo" />
-          <h2>Juan Naveros</h2>
+          <h2>Ing Navs</h2>
         </div>
         <ul className="nav-links">
           <li><a href="#about">Sobre mí</a></li>
