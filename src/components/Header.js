@@ -6,6 +6,7 @@ const Header = () => {
     <header className="header">
       <nav className="nav">
         <div className="nav-brand">
+          <img src="/web/icon-192.png" alt="Juan Naveros Logo" />
           <h2>Juan Naveros</h2>
         </div>
         <ul className="nav-links">
@@ -32,8 +33,16 @@ const Header = () => {
         </div>
         <div className="hero-image">
           <div className="profile-placeholder">
-            {/* Aquí puedes agregar tu foto de perfil */}
-            <span>Foto</span>
+            <img 
+              src="/web/icon-512.png" 
+              alt="Juan Naveros" 
+              style={{
+                width: '200px',
+                height: '200px',
+                borderRadius: '16px',
+                objectFit: 'cover'
+              }}
+            />
           </div>
         </div>
       </section>
