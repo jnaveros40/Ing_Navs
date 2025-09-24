@@ -1,5 +1,16 @@
 .about {
-  background: white;
+  background: var(--pure-white);
+  position: relative;
+}
+
+.about::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--gold-gradient);
 }
 
 .about-content {
@@ -10,15 +21,28 @@
 }
 
 .about-text h2 {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   font-weight: 700;
-  color: #2d3748;
+  color: var(--primary-black);
   margin-bottom: 30px;
+  position: relative;
+  display: inline-block;
+}
+
+.about-text h2::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 60px;
+  height: 4px;
+  background: var(--gold-gradient);
+  border-radius: 2px;
 }
 
 .about-text .lead {
-  font-size: 1.3rem;
-  color: #4a5568;
+  font-size: 1.4rem;
+  color: var(--dark-grey);
   font-weight: 500;
   margin-bottom: 25px;
   line-height: 1.6;
@@ -26,7 +50,7 @@
 
 .about-text p {
   font-size: 1.1rem;
-  color: #718096;
+  color: var(--dark-grey);
   line-height: 1.8;
   margin-bottom: 20px;
 }
@@ -40,23 +64,43 @@
 
 .stat {
   text-align: center;
-  padding: 20px;
-  background: #f8fafc;
-  border-radius: 12px;
-  border: 1px solid #e2e8f0;
+  padding: 25px;
+  background: linear-gradient(145deg, var(--pure-white), var(--off-white));
+  border-radius: 16px;
+  border: 2px solid var(--medium-grey);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.stat::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--gold-gradient);
+}
+
+.stat:hover {
+  transform: translateY(-8px);
+  border-color: var(--primary-gold);
+  box-shadow: 0 15px 35px rgba(255, 215, 0, 0.2);
 }
 
 .stat h3 {
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 700;
-  color: #667eea;
+  color: var(--primary-black);
   margin-bottom: 8px;
 }
 
 .stat span {
-  color: #718096;
+  color: var(--dark-grey);
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
+  letter-spacing: 0.5px;
 }
 
 .about-image {
@@ -66,18 +110,33 @@
 }
 
 .image-placeholder {
-  width: 300px;
-  height: 300px;
+  width: 320px;
+  height: 320px;
   border-radius: 20px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: var(--black-gradient);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: var(--primary-gold);
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
   text-align: center;
-  box-shadow: 0 20px 25px rgba(102, 126, 234, 0.3);
+  box-shadow: 
+    0 20px 40px rgba(0, 0, 0, 0.3),
+    0 0 0 4px var(--primary-gold);
+  position: relative;
+  overflow: hidden;
+}
+
+.image-placeholder::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(45deg, transparent 30%, rgba(255, 215, 0, 0.1) 50%, transparent 70%);
+  animation: profileShimmer 3s linear infinite;
 }
 
 /* Responsive */

@@ -40,21 +40,21 @@ const Contact = () => {
                 <span className="icon">📧</span>
                 <div>
                   <h4>Email</h4>
-                  <p>juan.naveros@email.com</p>
+                  <p>jnaveros40@gmail.com</p>
                 </div>
               </div>
               <div className="info-item">
                 <span className="icon">📱</span>
                 <div>
                   <h4>Teléfono</h4>
-                  <p>+57 300 123 4567</p>
+                  <p>+57 302 509 1063</p>
                 </div>
               </div>
               <div className="info-item">
                 <span className="icon">📍</span>
                 <div>
                   <h4>Ubicación</h4>
-                  <p>Bogotá, Colombia</p>
+                  <p>Colombia</p>
                 </div>
               </div>
             </div>
