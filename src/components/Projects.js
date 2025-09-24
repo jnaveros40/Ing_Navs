@@ -18,6 +18,7 @@ const Projects = () => {
       id: 2,
       title: "Grupo Ceiba Colombia",
       description: "Plataforma web institucional y e-commerce completa para Grupo Ceiba Colombia, organización BIC dedicada a la agricultura sostenible. Incluye tienda online con 20+ productos, sistema de carrito persistente, panel administrativo completo, chatbot inteligente con base de conocimientos, generador visual de contenido corporativo, y optimización SEO avanzada.",
+      image: "/Projects/Grupo_Ceiba.jpg",
       technologies: ["React", "CSS3", "JavaScript","TypeScript", "Material-UI", "React Router", "Node.js", "PostgreSQL","Responsive Design"],
       liveUrl: "https://grupoceibacolombia.com.co/",
       githubUrl: "https://github.com/jnaveros40",
