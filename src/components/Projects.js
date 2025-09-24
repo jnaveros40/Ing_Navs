@@ -6,9 +6,9 @@ const Projects = () => {
     {
       id: 1,
       title: "InmoSofts",
-      description: "Plataforma de software inmobiliario completa con gestión de propiedades, CRM y herramientas de análisis para el sector inmobiliario.",
+      description: "Sistema de gestión inmobiliaria moderno desarrollado con React y Vite. Incluye administración de propiedades, dashboard analítico, gestión de usuarios. Diseño responsive con Material-UI y tema personalizado.",
       image: "/Projects/InmoSoft.jpg",
-      technologies: ["React", "Node.js", "PostgreSQL", "Material-UI"],
+      technologies: ["React", "TypeScript", "Vite", "Material-UI", "React Router", "Node.js", "PostgreSQL"],
       liveUrl: "https://inmosofts.vercel.app/",
       githubUrl: "https://github.com/jnaveros40",
       status: "Ready",
