@@ -62,7 +62,7 @@ const Projects = () => {
       title: "JN Finanza Web",
       description: "Aplicación web de gestión financiera personal con análisis de gastos, presupuestos y planificación financiera.",
       image: "/Projects/my_Finanzas_App.jpg",
-      technologies: ["React", "Node.js", "MongoDB", "Chart.js"],
+      technologies: ["React", "Node.js", "MongoDB", "Chart.js", "JavaScript", "React Icons", "CSS-in-JS", "Firebase Auth"],
       liveUrl: "https://jn-finanza-web.vercel.app/",
       githubUrl: "https://github.com/jnaveros40",
       status: "Ready",
