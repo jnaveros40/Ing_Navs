@@ -108,7 +108,7 @@ const Projects = () => {
     <section id="projects" className="projects">
       <div className="container">
         <div className="projects-header">
-          <h2>Portfolio de Proyectos</h2>
+          <h2>Portafolio de Proyectos</h2>
           <p>Proyectos reales desarrollados con tecnologías modernas y mejores prácticas</p>
         </div>
         
