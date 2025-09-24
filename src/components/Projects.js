@@ -71,9 +71,9 @@ const Projects = () => {
     {
       id: 7,
       title: "Esencia Viva",
-      description: "E-commerce de productos naturales y orgánicos con sistema de pedidos y gestión de inventario.",
+      description: "Aplicación web progresiva (PWA) moderna para la gestión integral de un spa. Permite a los clientes reservar citas y adquirir planes de servicios con calendario interactivo, mientras que los administradores gestionan el negocio con panel de control completo, estadísticas avanzadas, gestión de planes, calendario de disponibilidad y sistema de notificaciones automáticas.",
       image: "/Projects/Esencia_Viva.jpg",
-      technologies: ["React", "Stripe", "Node.js", "CSS3"],
+      technologies: ["React", "Stripe", "Node.js", "CSS3", "React", "Vite", "Firebase", "PWA", "FullCalendar", "React Router", "Firestore", "Firebase Auth", "Workbox", "ESLint"],
       liveUrl: "https://esencia-viva.vercel.app/",
       githubUrl: "https://github.com/jnaveros40",
       status: "Ready",
