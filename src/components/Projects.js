@@ -104,7 +104,7 @@ const Projects = () => {
       title: "SENA Bus",
       description: "Sistema de transporte inteligente para el SENA con seguimiento en tiempo real, rutas optimizadas y gestión de usuarios.",
       image: "/Projects/sena_bus.jpg",
-      technologies: ["React", "Firebase", "Google Maps API", "Progressive Web App"],
+      technologies: ["React", "Firebase", "Google Maps API", "Progressive Web App", "JavaScript", "Vite", "CSS3", "React Router", "Lucide React"],
       liveUrl: "https://bus-sena.vercel.app/",
       githubUrl: "https://github.com/jnaveros40",
       status: "Ready",
