@@ -6,50 +6,50 @@ const Skills = () => {
     {
       title: "Lenguajes de Programación",
       skills: [
-        { name: "JavaScript", level: 90, color: "#f7df1e" },
-        { name: "Python", level: 85, color: "#3776ab" },
-        { name: "Java", level: 80, color: "#007396" },
-        { name: "TypeScript", level: 75, color: "#3178c6" },
-        { name: "C#", level: 70, color: "#239120" }
+        { name: "JavaScript", level: 90 },
+        { name: "Python", level: 85 },
+        { name: "Java", level: 80 },
+        { name: "TypeScript", level: 75 },
+        { name: "C#", level: 70 }
       ]
     },
     {
       title: "Frontend",
       skills: [
-        { name: "React", level: 90, color: "#61dafb" },
-        { name: "Vue.js", level: 80, color: "#4fc08d" },
-        { name: "HTML5", level: 95, color: "#e34f26" },
-        { name: "CSS3", level: 90, color: "#1572b6" },
-        { name: "SASS", level: 75, color: "#cc6699" }
+        { name: "React", level: 90 },
+        { name: "Vue.js", level: 80 },
+        { name: "HTML5", level: 95 },
+        { name: "CSS3", level: 90 },
+        { name: "SASS", level: 75 }
       ]
     },
     {
       title: "Backend",
       skills: [
-        { name: "Node.js", level: 85, color: "#339933" },
-        { name: "Express.js", level: 80, color: "#000000" },
-        { name: "Django", level: 75, color: "#092e20" },
-        { name: "Spring Boot", level: 70, color: "#6db33f" },
-        { name: "GraphQL", level: 65, color: "#e10098" }
+        { name: "Node.js", level: 85 },
+        { name: "Express.js", level: 80 },
+        { name: "Django", level: 75 },
+        { name: "Spring Boot", level: 70 },
+        { name: "GraphQL", level: 65 }
       ]
     },
     {
       title: "Bases de Datos",
       skills: [
-        { name: "MongoDB", level: 85, color: "#47a248" },
-        { name: "PostgreSQL", level: 80, color: "#336791" },
-        { name: "MySQL", level: 85, color: "#4479a1" },
-        { name: "Redis", level: 70, color: "#dc382d" }
+        { name: "MongoDB", level: 85 },
+        { name: "PostgreSQL", level: 80 },
+        { name: "MySQL", level: 85 },
+        { name: "Redis", level: 70 }
       ]
     },
     {
       title: "Herramientas & DevOps",
       skills: [
-        { name: "Git", level: 90, color: "#f05032" },
-        { name: "Docker", level: 75, color: "#2496ed" },
-        { name: "AWS", level: 70, color: "#ff9900" },
-        { name: "Vercel", level: 85, color: "#000000" },
-        { name: "GitHub Actions", level: 70, color: "#2088ff" }
+        { name: "Git", level: 90 },
+        { name: "Docker", level: 75 },
+        { name: "AWS", level: 70 },
+        { name: "Vercel", level: 85 },
+        { name: "GitHub Actions", level: 70 }
       ]
     }
   ];

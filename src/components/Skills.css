@@ -1,5 +1,16 @@
 .skills {
-  background: white;
+  background: var(--pure-white);
+  position: relative;
+}
+
+.skills::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--black-gradient);
 }
 
 .skills-header {
@@ -8,15 +19,29 @@
 }
 
 .skills-header h2 {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   font-weight: 700;
-  color: #2d3748;
+  color: var(--primary-black);
   margin-bottom: 20px;
+  position: relative;
+  display: inline-block;
+}
+
+.skills-header h2::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 4px;
+  background: var(--gold-gradient);
+  border-radius: 2px;
 }
 
 .skills-header p {
-  font-size: 1.1rem;
-  color: #718096;
+  font-size: 1.2rem;
+  color: var(--dark-grey);
 }
 
 .skills-grid {
@@ -27,18 +52,38 @@
 }
 
 .skill-category {
-  background: #f8fafc;
-  padding: 30px;
-  border-radius: 12px;
-  border: 1px solid #e2e8f0;
+  background: linear-gradient(145deg, var(--pure-white), var(--off-white));
+  padding: 35px;
+  border-radius: 16px;
+  border: 2px solid var(--medium-grey);
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.skill-category::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--gold-gradient);
+  border-radius: 16px 16px 0 0;
+}
+
+.skill-category:hover {
+  transform: translateY(-8px);
+  border-color: var(--primary-gold);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
 }
 
 .skill-category h3 {
-  font-size: 1.3rem;
-  font-weight: 600;
-  color: #2d3748;
-  margin-bottom: 25px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--primary-black);
+  margin-bottom: 30px;
   text-align: center;
+  letter-spacing: 0.5px;
 }
 
 .skills-list {
@@ -48,10 +93,33 @@
 }
 
 .skill-item {
-  background: white;
-  padding: 20px;
-  border-radius: 8px;
-  border: 1px solid #e2e8f0;
+  background: var(--pure-white);
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid var(--medium-grey);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.skill-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 215, 0, 0.1), transparent);
+  transition: left 0.5s;
+}
+
+.skill-item:hover::before {
+  left: 100%;
+}
+
+.skill-item:hover {
+  border-color: var(--primary-gold);
+  box-shadow: 0 8px 25px rgba(255, 215, 0, 0.15);
 }
 
 .skill-info {
@@ -62,28 +130,32 @@
 }
 
 .skill-name {
-  font-weight: 600;
-  color: #2d3748;
+  font-weight: 700;
+  color: var(--primary-black);
+  letter-spacing: 0.5px;
 }
 
 .skill-percentage {
   font-size: 14px;
-  color: #718096;
-  font-weight: 500;
+  color: var(--dark-grey);
+  font-weight: 600;
 }
 
 .skill-bar {
-  height: 8px;
-  background: #e2e8f0;
-  border-radius: 4px;
+  height: 10px;
+  background: var(--light-grey);
+  border-radius: 5px;
   overflow: hidden;
+  position: relative;
 }
 
 .skill-progress {
   height: 100%;
-  border-radius: 4px;
-  transition: width 1s ease-in-out;
+  border-radius: 5px;
+  transition: width 1.5s ease-in-out;
   position: relative;
+  background: var(--gold-gradient);
+  box-shadow: 0 2px 8px rgba(255, 215, 0, 0.3);
 }
 
 .skill-progress::after {
@@ -93,7 +165,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
   animation: shimmer 2s infinite;
 }
 
@@ -110,20 +182,40 @@
 
 .summary-card {
   text-align: center;
-  padding: 30px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  border-radius: 12px;
+  padding: 35px;
+  background: var(--black-gradient);
+  color: var(--primary-gold);
+  border-radius: 16px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.summary-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--gold-gradient);
+}
+
+.summary-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
 
 .summary-card h4 {
-  font-size: 1.2rem;
-  font-weight: 600;
-  margin-bottom: 10px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: var(--primary-gold);
 }
 
 .summary-card p {
-  opacity: 0.9;
+  color: var(--pure-white);
+  font-weight: 500;
 }
 
 /* Responsive */
