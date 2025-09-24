@@ -82,11 +82,11 @@ const PWAInstallPrompt = () => {
     <div className="pwa-install-prompt">
       <div className="pwa-prompt-content">
         <div className="pwa-prompt-icon">
-          <img src="/web/icon-192.png" alt="Juan Naveros Portfolio" />
+          <img src="/web/icon-192.png" alt="Juan Naveros Portafolio" />
         </div>
         <div className="pwa-prompt-text">
-          <h4>Instalar Portfolio</h4>
-          <p>Instala el portfolio de Juan Naveros para acceso rápido y uso offline</p>
+          <h4>Instalar Portafolio</h4>
+          <p>Instala el portafolio de Juan Naveros para acceso rápido y uso offline</p>
         </div>
         <div className="pwa-prompt-buttons">
           <button className="pwa-install-btn" onClick={handleInstallClick}>

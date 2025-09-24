@@ -1,5 +1,5 @@
 # https://www.robotstxt.org/robotstxt.html
-# Juan Naveros Portfolio Professional
+# Ing_Navs Portafolio Professional
 User-agent: *
 Allow: /
 
