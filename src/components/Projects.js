@@ -40,7 +40,7 @@ const Projects = () => {
       title: "Atomic Ed Vision",
       description: "Plataforma educativa innovadora con contenido interactivo y herramientas de aprendizaje adaptativo.",
       image: "/Projects/Atomic_Ed_Vision.jpg",
-      technologies: ["React", "TypeScript", "Firebase", "Tailwind CSS"],
+      technologies: ["React", "TypeScript", "Firebase","PWA", "HTML", "Tailwind CSS", "JavaScript"],
       liveUrl: "https://atomic-ed-vision.vercel.app/",
       githubUrl: "https://github.com/jnaveros40",
       status: "Ready",
