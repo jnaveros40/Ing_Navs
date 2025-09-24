@@ -90,6 +90,17 @@ const Projects = () => {
       githubUrl: "https://github.com/jnaveros40",
       status: "Ready",
       category: "Real Estate"
+    },
+    {
+      id: 9,
+      title: "SENA Bus",
+      description: "Sistema de transporte inteligente para el SENA con seguimiento en tiempo real, rutas optimizadas y gestión de usuarios.",
+      image: "/Projects/sena_bus.jpg",
+      technologies: ["React", "Firebase", "Google Maps API", "Progressive Web App"],
+      liveUrl: "https://bus-sena.vercel.app/",
+      githubUrl: "https://github.com/jnaveros40",
+      status: "Ready",
+      category: "Transport System"
     }
   ];
 
@@ -140,7 +151,7 @@ const Projects = () => {
         <div className="projects-footer">
           <div className="projects-stats">
             <div className="stat-item">
-              <h4>8+</h4>
+              <h4>9+</h4>
               <span>Proyectos Completados</span>
             </div>
             <div className="stat-item">
@@ -148,7 +159,7 @@ const Projects = () => {
               <span>Proyectos Entregados</span>
             </div>
             <div className="stat-item">
-              <h4>5+</h4>
+              <h4>15+</h4>
               <span>Tecnologías Dominadas</span>
             </div>
           </div>
