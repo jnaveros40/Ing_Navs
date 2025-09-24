@@ -77,7 +77,7 @@ const Projects = () => {
       liveUrl: "https://esencia-viva.vercel.app/",
       githubUrl: "https://github.com/jnaveros40",
       status: "Ready",
-      category: "E-Commerce"
+      category: "Spa Management"
     },
     {
       id: 8,
