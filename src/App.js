@@ -6,6 +6,7 @@ import Projects from './components/Projects';
 import Experience from './components/Experience';
 import Education from './components/Education';
 import Contact from './components/Contact';
+import PWAInstallPrompt from './components/PWAInstallPrompt';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Education />
         <Contact />
       </main>
+      <PWAInstallPrompt />
     </div>
   );
 }
