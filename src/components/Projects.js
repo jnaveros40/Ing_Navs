@@ -29,7 +29,7 @@ const Projects = () => {
       title: "Scouting Goal",
       description: "Plataforma de scouting deportivo para análisis y seguimiento de jugadores de fútbol con estadísticas avanzadas.",
       image: "/Projects/Scouting_Goal.jpg",
-      technologies: ["React", "Chart.js", "API REST", "Bootstrap"],
+      technologies: ["React", "Chart.js", "API REST", "Bootstrap", "Next.js", "TypeScript", "Tailwind CSS", "Node.js"],
       liveUrl: "https://scoutingoal.vercel.app/",
       githubUrl: "https://github.com/jnaveros40",
       status: "Ready",
