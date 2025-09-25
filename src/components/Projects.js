@@ -158,22 +158,9 @@ const Projects = () => {
         </div>
         
         <div className="projects-footer">
-          <div className="projects-stats">
-            <div className="stat-item">
-              <h4>9+</h4>
-              <span>Proyectos Completados</span>
-            </div>
-            <div className="stat-item">
-              <h4>100%</h4>
-              <span>Proyectos Entregados</span>
-            </div>
-            <div className="stat-item">
-              <h4>15+</h4>
-              <span>Tecnologías Dominadas</span>
-            </div>
-          </div>
+          
           <a href="https://github.com/jnaveros40" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
-            Ver más proyectos en GitHub
+            Descubre más sobre mis proyectos y habilidades en mi perfil de GitHub
           </a>
         </div>
       </div>

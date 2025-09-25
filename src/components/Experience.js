@@ -5,42 +5,44 @@ const Experience = () => {
   const experiences = [
     {
       id: 1,
-      position: "Desarrollador Full Stack Senior",
-      company: "Tech Solutions Inc.",
-      period: "2022 - Presente",
-      location: "Bogotá, Colombia",
+      position: "Desarrollador Full Stack Senior, Experto en tecnologías modernas",
+      company: "Servicio Nacional de aprendizaje (SENA)",
+      period: "2025 - Presente",
+      location: "Tolima, Colombia",
       description: [
         "Lideré el desarrollo de aplicaciones web usando React y Node.js",
         "Implementé arquitecturas escalables y optimicé el rendimiento en un 40%",
         "Mentoricé a desarrolladores junior y establecí mejores prácticas de código"
       ],
-      technologies: ["React", "Node.js", "MongoDB", "AWS", "Docker"]
+      technologies: ["React", "Node.js", "MongoDB", "AWS", "Docker", "Firebase", "Supabase"]
     },
     {
       id: 2,
-      position: "Desarrollador Frontend",
-      company: "Digital Agency",
-      period: "2021 - 2022",
-      location: "Medellín, Colombia",
+      position: "Lider de procesos",
+      company: "Sitara",
+      period: "2024 - 2025",
+      location: "Santander, Colombia",
       description: [
-        "Desarrollé interfaces de usuario responsivas y accesibles",
-        "Colaboré con equipos de diseño para implementar experiencias excepcionales",
-        "Integré APIs RESTful y optimicé tiempos de carga"
+        "Desarrollé y optimicé procesos industriales y de automatización",
+        "Coordiné equipos de trabajo",
+        "Lidere procesos de mejora continua para aumentar la eficiencia"
       ],
-      technologies: ["Vue.js", "JavaScript", "CSS3", "REST APIs"]
+      technologies: ["Siemens", "PLC", "SCADA", "Arduino"]
     },
     {
       id: 3,
-      position: "Desarrollador Junior",
-      company: "StartUp Innovadora",
+      position: "Lider de mantenimiento",
+      company: "Embotelladora de bebidas",
       period: "2020 - 2021",
-      location: "Cali, Colombia",
+      location: "Tolima, Colombia",
       description: [
         "Participé en el desarrollo de MVP para aplicaciones web",
+        "Implementé sistemas de control automatizado y mantenimiento predictivo",
         "Aprendí metodologías ágiles y mejores prácticas de desarrollo",
+        "Lideré equipos y mejoré la eficiencia operativa",
         "Contribuí en todas las fases del ciclo de desarrollo de software"
       ],
-      technologies: ["HTML5", "CSS3", "JavaScript", "PHP", "MySQL"]
+      technologies: ["Siemens","Variadores de frecuencia", "PLC", "SCADA", "Arduino"]
     }
   ];
 

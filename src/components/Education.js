@@ -5,19 +5,19 @@ const Education = () => {
   const education = [
     {
       id: 1,
-      degree: "Ingeniería de Sistemas",
-      institution: "Universidad Nacional de Colombia",
+      degree: "Ingeniería de Mantenimiento",
+      institution: "Universidad de San Gil",
       period: "2018 - 2022",
-      location: "Bogotá, Colombia",
+      location: "Santander, Colombia",
       description: "Especialización en desarrollo de software y arquitectura de sistemas",
-      achievements: ["Tesis sobre arquitecturas de microservicios", "Promedio: 4.2/5.0"]
+      achievements: ["Tesis sobre sistemas de adquisiscion, mantenimiento y control de datos en tiempo real", "Promedio: 4.2/5.0"]
     },
     {
       id: 2,
-      degree: "Técnico en Programación",
-      institution: "SENA",
-      period: "2017 - 2018",
-      location: "Bogotá, Colombia",
+      degree: "Tecnólogo en Mantenimiento Industrial",
+      institution: "Universidad de Ibagué",
+      period: "2016 - 2018",
+      location: "Ibagué, Colombia",
       description: "Fundamentos de programación y desarrollo web",
       achievements: ["Proyecto final destacado", "Certificación en desarrollo web"]
     }
@@ -26,10 +26,11 @@ const Education = () => {
   const certifications = [
     {
       id: 1,
-      title: "AWS Certified Developer",
-      issuer: "Amazon Web Services",
-      date: "2023",
-      credentialId: "AWS-123456"
+      title: "Desarrollador de aplicaciones WEB",
+      issuer: "Universidad de Caldas",
+      date: "2022",
+      credentialId: "U-CALDAS-789"
+      
     },
     {
       id: 2,
@@ -40,8 +41,8 @@ const Education = () => {
     },
     {
       id: 3,
-      title: "Node.js Certified Developer",
-      issuer: "Node.js Foundation",
+      title: "Formulacion y Evaluacion de Proyectos",
+      issuer: "Sena",
       date: "2022",
       credentialId: "NODE-456789"
     },
@@ -100,7 +101,7 @@ const Education = () => {
                   </div>
                   <div className="cert-body">
                     <p className="issuer">{cert.issuer}</p>
-                    <p className="credential">ID: {cert.credentialId}</p>
+                    
                   </div>
                 </div>
               ))}
