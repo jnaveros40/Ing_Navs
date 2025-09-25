@@ -40,14 +40,16 @@ const Contact = () => {
                 <span className="icon">📧</span>
                 <div>
                   <h4>Email</h4>
-                  <p>jnaveros40@gmail.com</p>
+                  <a href="mailto:jnaveros40@gmail.com" className="contact-link">jnaveros40@gmail.com</a>
                 </div>
               </div>
               <div className="info-item">
-                <span className="icon">📱</span>
+                <span className="icon">�</span>
                 <div>
-                  <h4>Teléfono</h4>
-                  <p>+57 302 509 1063</p>
+                  <h4>WhatsApp</h4>
+                  <a href="https://wa.me/573025091063?text=Hola%20Juan,%20me%20interesa%20conocer%20más%20sobre%20tus%20servicios%20de%20desarrollo%20web" target="_blank" rel="noopener noreferrer" className="contact-link whatsapp-link">
+                    +57 302 509 1063
+                  </a>
                 </div>
               </div>
               <div className="info-item">
