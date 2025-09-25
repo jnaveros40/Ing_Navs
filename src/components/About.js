@@ -39,12 +39,14 @@ const About = () => {
               </div>
             </div>
           </div>
-          
+          {/*
           <div className="about-image">
             <div className="image-placeholder">
               <span>Tu foto profesional aquí</span>
             </div>
           </div>
+          */}
+          
         </div>
       </div>
     </section>
