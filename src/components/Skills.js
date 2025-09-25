@@ -1,58 +1,49 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Skills.css';
 
 const Skills = () => {
-  const skillCategories = [
-    {
-      title: "Lenguajes de Programación",
-      skills: [
-        { name: "JavaScript", level: 90 },
-        { name: "Python", level: 85 },
-        { name: "Java", level: 80 },
-        { name: "TypeScript", level: 75 },
-        { name: "C#", level: 70 }
-      ]
-    },
-    {
-      title: "Frontend",
-      skills: [
-        { name: "React", level: 90 },
-        { name: "Vue.js", level: 80 },
-        { name: "HTML5", level: 95 },
-        { name: "CSS3", level: 90 },
-        { name: "SASS", level: 75 }
-      ]
-    },
-    {
-      title: "Backend",
-      skills: [
-        { name: "Node.js", level: 85 },
-        { name: "Express.js", level: 80 },
-        { name: "Django", level: 75 },
-        { name: "Spring Boot", level: 70 },
-        { name: "GraphQL", level: 65 }
-      ]
-    },
-    {
-      title: "Bases de Datos",
-      skills: [
-        { name: "MongoDB", level: 85 },
-        { name: "PostgreSQL", level: 80 },
-        { name: "MySQL", level: 85 },
-        { name: "Redis", level: 70 }
-      ]
-    },
-    {
-      title: "Herramientas & DevOps",
-      skills: [
-        { name: "Git", level: 90 },
-        { name: "Docker", level: 75 },
-        { name: "AWS", level: 70 },
-        { name: "Vercel", level: 85 },
-        { name: "GitHub Actions", level: 70 }
-      ]
-    }
-  ];
+  const [activeTab, setActiveTab] = useState('Frontend');
+
+  const skillCategories = {
+    Frontend: [
+      { name: "HTML/CSS", icon: "🌐", level: 95 },
+      { name: "JavaScript", icon: "⚡", level: 95 },
+      { name: "TypeScript", icon: "📘", level: 90 },
+      { name: "React", icon: "⚛️", level: 95 },
+      { name: "Next.js", icon: "🔺", level: 90 },
+      { name: "Vue.js", icon: "🔺", level: 90 },
+      { name: "Laravel", icon: "🔺", level: 90 },
+      { name: "Tailwind CSS", icon: "🎨", level: 85 }
+    ],
+    Backend: [
+      { name: "Node.js", icon: "💚", level: 90 },
+      { name: "Express", icon: "🚀", level: 85 },
+      { name: "MongoDB", icon: "🍃", level: 85 },
+      { name: "SQL", icon: "🗄️", level: 80 },
+      { name: "Java", icon: "☕", level: 80 },
+      { name: "Python", icon: "🐍", level: 80 },
+      { name: "C#", icon: "", level: 80 },
+      { name: "PHP", icon: "🐘", level: 75 },
+      
+      { name: "Spring", icon: "🌱", level: 75 }
+    ],
+    BBDD: [
+      { name: "Firebase", icon: "🔥", level: 80 },
+      { name: "Supabase", icon: "", level: 80 },
+      { name: "PostgreSQL", icon: "🐘", level: 80 },
+      { name: "MySQL", icon: "🐬", level: 75 },
+    ],
+    "Tools & DevOps": [
+      { name: "Git", icon: "🔧", level: 95 },
+      { name: "Docker", icon: "🐳", level: 75 },
+      { name: "AWS", icon: "☁️", level: 70 },
+      { name: "Vercel", icon: "🚀", level: 85 },
+      { name: "GitHub Actions", icon: "🤖", level: 70 },
+      
+
+      { name: "CI/CD", icon: "🔄", level: 70 }
+    ]
+  };
 
   return (
     <section id="skills" className="skills">
@@ -62,30 +53,27 @@ const Skills = () => {
           <p>Tecnologías y herramientas que domino</p>
         </div>
         
-        <div className="skills-grid">
-          {skillCategories.map((category, index) => (
-            <div key={index} className="skill-category">
-              <h3>{category.title}</h3>
-              <div className="skills-list">
-                {category.skills.map((skill, skillIndex) => (
-                  <div key={skillIndex} className="skill-item">
-                    <div className="skill-info">
-                      <span className="skill-name">{skill.name}</span>
-                      <span className="skill-percentage">{skill.level}%</span>
-                    </div>
-                    <div className="skill-bar">
-                      <div 
-                        className="skill-progress" 
-                        style={{ 
-                          width: `${skill.level}%`
-                        }}
-                      ></div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
+        <div className="skills-tabs">
+          {Object.keys(skillCategories).map((category) => (
+            <button
+              key={category}
+              className={`tab-button ${activeTab === category ? 'active' : ''}`}
+              onClick={() => setActiveTab(category)}
+            >
+              {category}
+            </button>
           ))}
+        </div>
+
+        <div className="skills-content">
+          <div className="skills-cards-grid">
+            {skillCategories[activeTab].map((skill, index) => (
+              <div key={index} className="skill-card">
+                <div className="skill-icon">{skill.icon}</div>
+                <div className="skill-name">{skill.name}</div>
+              </div>
+            ))}
+          </div>
         </div>
         
         <div className="skills-summary">
@@ -94,12 +82,12 @@ const Skills = () => {
             <p>3+ años desarrollando aplicaciones web</p>
           </div>
           <div className="summary-card">
-            <h4>Proyectos</h4>
-            <p>15+ proyectos completados</p>
+            <h4>Tecnologías</h4>
+            <p>15+ tecnologías dominadas</p>
           </div>
           <div className="summary-card">
-            <h4>Clientes</h4>
-            <p>10+ clientes satisfechos</p>
+            <h4>Especialización</h4>
+            <p>Full Stack & PWA Development</p>
           </div>
         </div>
       </div>
