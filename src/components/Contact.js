@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Contact.css';
+import './Contact.css';              
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -43,8 +43,8 @@ const Contact = () => {
                   <a href="mailto:jnaveros40@gmail.com" className="contact-link">jnaveros40@gmail.com</a>
                 </div>
               </div>
-              <div className="info-item">
-                <span className="icon">�</span>
+              <div className="info-item whatsapp-item">
+                <span className="icon whatsapp-icon">📱</span>
                 <div>
                   <h4>WhatsApp</h4>
                   <a href="https://wa.me/573025091063?text=Hola%20Juan,%20me%20interesa%20conocer%20más%20sobre%20tus%20servicios%20de%20desarrollo%20web" target="_blank" rel="noopener noreferrer" className="contact-link whatsapp-link">
@@ -52,6 +52,8 @@ const Contact = () => {
                   </a>
                 </div>
               </div>
+
+              
               <div className="info-item">
                 <span className="icon">📍</span>
                 <div>
@@ -67,13 +69,11 @@ const Contact = () => {
                 <a href="https://github.com/jnaveros40" target="_blank" rel="noopener noreferrer" className="social-link">
                   <span>GitHub</span>
                 </a>
-                <a href="https://linkedin.com/in/juan-naveros" target="_blank" rel="noopener noreferrer" className="social-link">
+                <a href="https://www.linkedin.com/in/juan-guillermo-naveros-jimenez-38b0ba185/" target="_blank" rel="noopener noreferrer" className="social-link">
                   <span>LinkedIn</span>
                 </a>
-                <a href="https://twitter.com/juan_naveros" target="_blank" rel="noopener noreferrer" className="social-link">
-                  <span>Twitter</span>
-                </a>
-                <a href="https://instagram.com/juan.naveros" target="_blank" rel="noopener noreferrer" className="social-link">
+                
+                <a href="https://www.instagram.com/jnaveros40?igsh=MWNhMHpyZjhzanpvMg==" target="_blank" rel="noopener noreferrer" className="social-link">
                   <span>Instagram</span>
                 </a>
               </div>
