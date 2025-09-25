@@ -11,8 +11,8 @@ const Skills = () => {
       { name: "TypeScript", icon: "📘", level: 90 },
       { name: "React", icon: "⚛️", level: 95 },
       { name: "Next.js", icon: "🔺", level: 90 },
-      { name: "Vue.js", icon: "", level: 90 },
-      { name: "Laravel", icon: "", level: 90 },
+      { name: "Vue.js", icon: "🟢", level: 90 },
+      { name: "Laravel", icon: "🕯️", level: 90 },
       { name: "Tailwind CSS", icon: "🎨", level: 85 }
     ],
     Backend: [
@@ -22,18 +22,18 @@ const Skills = () => {
       { name: "SQL", icon: "🗄️", level: 80 },
       { name: "Java", icon: "☕", level: 80 },
       { name: "Python", icon: "🐍", level: 80 },
-      { name: "C#", icon: "", level: 80 },
+      { name: "C#", icon: "♯", level: 80 },
       { name: "PHP", icon: "🐘", level: 75 },
       
       { name: "Spring", icon: "🌱", level: 75 }
     ],
     BBDD: [
       { name: "Firebase", icon: "🔥", level: 80 },
-      { name: "Supabase", icon: "", level: 80 },
+      { name: "Supabase", icon: "☁️", level: 80 },
       { name: "PostgreSQL", icon: "🐘", level: 80 },
       { name: "MySQL", icon: "🐬", level: 75 },
     ],
-    
+
     "Tools & DevOps": [
       { name: "Git", icon: "🔧", level: 95 },
       { name: "Docker", icon: "🐳", level: 75 },
