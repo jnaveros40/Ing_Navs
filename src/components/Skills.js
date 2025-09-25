@@ -33,6 +33,7 @@ const Skills = () => {
       { name: "PostgreSQL", icon: "🐘", level: 80 },
       { name: "MySQL", icon: "🐬", level: 75 },
     ],
+    
     "Tools & DevOps": [
       { name: "Git", icon: "🔧", level: 95 },
       { name: "Docker", icon: "🐳", level: 75 },

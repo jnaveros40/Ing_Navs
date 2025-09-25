@@ -12,7 +12,7 @@
   left: 0;
   right: 0;
   height: 2px;
-  background: var(--gold-gradient);
+  background: var(--primary-gold);
 }
 
 .skills-header {
@@ -141,7 +141,7 @@
 .skill-name {
   font-size: 1.1rem;
   font-weight: 600;
-  color: var(--pure-white);
+  color: var(--gold-gradient);
 }
 
 
@@ -216,7 +216,7 @@
 
 .skill-name {
   font-weight: 700;
-  color: var(--primary-black);
+  color: var(--primary-gold);
   letter-spacing: 0.5px;
 }
 
