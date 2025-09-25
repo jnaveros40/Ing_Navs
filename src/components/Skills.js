@@ -11,8 +11,8 @@ const Skills = () => {
       { name: "TypeScript", icon: "📘", level: 90 },
       { name: "React", icon: "⚛️", level: 95 },
       { name: "Next.js", icon: "🔺", level: 90 },
-      { name: "Vue.js", icon: "🔺", level: 90 },
-      { name: "Laravel", icon: "🔺", level: 90 },
+      { name: "Vue.js", icon: "", level: 90 },
+      { name: "Laravel", icon: "", level: 90 },
       { name: "Tailwind CSS", icon: "🎨", level: 85 }
     ],
     Backend: [
