@@ -1,7 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Header.css';
 
 const Header = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
   return (
     <header className="header">
       <nav className="nav">
@@ -9,13 +19,22 @@ const Header = () => {
           <img src="/web/icon-192.png" alt="Juan Naveros Logo" />
           <h2>Ing Navs</h2>
         </div>
-        <ul className="nav-links">
-          <li><a href="#about">Sobre mí</a></li>
-          <li><a href="#skills">Habilidades</a></li>
-          <li><a href="#projects">Proyectos</a></li>
-          <li><a href="#experience">Experiencia</a></li>
-          <li><a href="#contact">Contacto</a></li>
+        
+        <button className={`menu-toggle ${isMenuOpen ? 'active' : ''}`} onClick={toggleMenu}>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        
+        <ul className={`nav-links ${isMenuOpen ? 'nav-links-open' : ''}`}>
+          <li><a href="#about" onClick={closeMenu}>Sobre mí</a></li>
+          <li><a href="#skills" onClick={closeMenu}>Habilidades</a></li>
+          <li><a href="#projects" onClick={closeMenu}>Proyectos</a></li>
+          <li><a href="#experience" onClick={closeMenu}>Experiencia</a></li>
+          <li><a href="#contact" onClick={closeMenu}>Contacto</a></li>
         </ul>
+        
+        {isMenuOpen && <div className="nav-overlay" onClick={closeMenu}></div>}
       </nav>
       
       <section className="hero">
