@@ -17,7 +17,7 @@ const Skills = () => {
     ],
     Backend: [
       { name: "Node.js", icon: "node.png", level: 90 },
-      { name: "Express", icon: "express.png", level: 85 },
+      
       { name: "MongoDB", icon: "mongodb.png", level: 85 },
       { name: "SQL", icon: "sql.png", level: 80 },
       { name: "Java", icon: "java.png", level: 80 },
@@ -40,7 +40,7 @@ const Skills = () => {
       { name: "AWS", icon: "aws.png", level: 70 },
       { name: "Vercel", icon: "vercel.png", level: 85 },
       { name: "GitHub Actions", icon: "github.png", level: 70 },
-      { name: "CI/CD", icon: "ci-cd.png", level: 70 }
+      { name: "CI/CD", icon: "cicd.png", level: 70 }
     ]
   };
 
