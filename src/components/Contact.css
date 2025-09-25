@@ -125,6 +125,66 @@
   text-shadow: 0 0 10px rgba(37, 211, 102, 0.3);
 }
 
+/* WhatsApp Card Específico */
+.whatsapp-item {
+  background: rgba(37, 211, 102, 0.1);
+  border: 2px solid rgba(37, 211, 102, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.whatsapp-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(37, 211, 102, 0.2), transparent);
+  transition: all 0.5s ease;
+}
+
+.whatsapp-item:hover::before {
+  left: 100%;
+}
+
+.whatsapp-item:hover {
+  background: rgba(37, 211, 102, 0.15);
+  border-color: #25D366;
+  transform: translateX(8px);
+  box-shadow: 0 8px 25px rgba(37, 211, 102, 0.3);
+}
+
+.whatsapp-item .whatsapp-icon {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(37, 211, 102, 0.2);
+  border-radius: 12px;
+  border: 2px solid rgba(37, 211, 102, 0.4);
+  transition: all 0.3s ease;
+}
+
+.whatsapp-item .whatsapp-icon img {
+  width: 28px;
+  height: 28px;
+  filter: brightness(1.1);
+}
+
+.whatsapp-item:hover .whatsapp-icon {
+  background: rgba(37, 211, 102, 0.3);
+  border-color: #25D366;
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(37, 211, 102, 0.4);
+}
+
+.whatsapp-item h4 {
+  color: #25D366 !important;
+  text-shadow: 0 0 5px rgba(37, 211, 102, 0.3);
+}
+
 /* Social Links */
 .social-links {
   background: var(--primary-black);

@@ -44,7 +44,9 @@ const Contact = () => {
                 </div>
               </div>
               <div className="info-item whatsapp-item">
-                <span className="icon whatsapp-icon">📱</span>
+                <div className="icon whatsapp-icon">
+                  <img src="/WhatsApp.png" alt="WhatsApp" />
+                </div>
                 <div>
                   <h4>WhatsApp</h4>
                   <a href="https://wa.me/573025091063?text=Hola%20Juan,%20me%20interesa%20conocer%20más%20sobre%20tus%20servicios%20de%20desarrollo%20web" target="_blank" rel="noopener noreferrer" className="contact-link whatsapp-link">
