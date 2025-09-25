@@ -14,17 +14,14 @@ const Header = () => {
 
   return (
     <header className="header">
+      
       <nav className="nav">
         <div className="nav-brand">
           <img src="/web/icon-192.png" alt="Juan Naveros Logo" />
           <h2>Ing Navs</h2>
         </div>
         
-        <button className={`menu-toggle ${isMenuOpen ? 'active' : ''}`} onClick={toggleMenu}>
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
+       
         
         <ul className={`nav-links ${isMenuOpen ? 'nav-links-open' : ''}`}>
           <li><a href="#about" onClick={closeMenu}>Sobre mí</a></li>
@@ -33,9 +30,9 @@ const Header = () => {
           <li><a href="#experience" onClick={closeMenu}>Experiencia</a></li>
           <li><a href="#contact" onClick={closeMenu}>Contacto</a></li>
         </ul>
-        
-        {isMenuOpen && <div className="nav-overlay" onClick={closeMenu}></div>}
       </nav>
+      
+      {isMenuOpen && <div className={`nav-overlay ${isMenuOpen ? 'active' : ''}`} onClick={closeMenu}></div>}
       
       <section className="hero">
         <div className="hero-content">
