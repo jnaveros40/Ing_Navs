@@ -55,7 +55,7 @@ const Projects = () => {
       technologies: ["Next.js", "Python", "TensorFlow", "OpenAI API"],
       liveUrl: "https://learn-ai-nu-seven.vercel.app/",
       githubUrl: "https://github.com/jnaveros40",
-      status: "Ready",
+      status: "in development",
       category: "AI Education"
     },
     {
@@ -85,19 +85,10 @@ const Projects = () => {
       title: "Lujo Real",
       description: "Plataforma de bienes raíces de lujo con búsqueda avanzada, tours virtuales y gestión de propiedades premium.",
       image: "/Projects/LujoReal.jpg",
-      technologies: ["React", "Google Maps API", "Node.js", "PostgreSQL", "Firebase", 
-    "Firestore", 
-    "Firebase Auth", 
-    "Cloudinary", 
-    "Styled Components", 
-    "React Router", 
-    "PWA", 
-    "Service Worker", 
-    "React Icons", 
-    "Context API"],
+      technologies: ["React", "Google Maps API", "Node.js", "PostgreSQL", "Firebase", "Firestore", "Firebase Auth", "Cloudinary", "Styled Components", "React Router", "PWA", "Service Worker", "React Icons", "Context API"],
       liveUrl: "https://lujoreal.vercel.app/",
       githubUrl: "https://github.com/jnaveros40",
-      status: "Ready",
+      status: "in development",
       category: "Real Estate"
     },
     {
