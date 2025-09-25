@@ -12,24 +12,22 @@ const Skills = () => {
       { name: "React", icon: "react.png", level: 95 },
       { name: "Next.js", icon: "nextjs.png", level: 90 },
       { name: "Vue.js", icon: "vue.png", level: 90 },
-      { name: "Laravel", icon: "laravel.png", level: 90 },
       { name: "Tailwind CSS", icon: "tailwind.png", level: 85 }
     ],
     Backend: [
       { name: "Node.js", icon: "node.png", level: 90 },
-      
-      { name: "MongoDB", icon: "mongodb.png", level: 85 },
-      { name: "SQL", icon: "sql.png", level: 80 },
       { name: "Java", icon: "java.png", level: 80 },
       { name: "Python", icon: "python.png", level: 80 },
       { name: "C#", icon: "csharp.png", level: 80 },
       { name: "PHP", icon: "php.png", level: 75 },
-
+      { name: "Laravel", icon: "laravel.png", level: 90 },
       { name: "Spring", icon: "spring.png", level: 75 }
     ],
-    BBDD: [
+    "Bases de Datos": [
       { name: "Firebase", icon: "firebase.png", level: 80 },
       { name: "Supabase", icon: "supabase.png", level: 80 },
+      { name: "MongoDB", icon: "mongodb.png", level: 85 },
+      { name: "SQL", icon: "sql.png", level: 80 },
       { name: "PostgreSQL", icon: "postgresql.png", level: 80 },
       { name: "MySQL", icon: "mysql.png", level: 75 },
     ],
@@ -41,7 +39,14 @@ const Skills = () => {
       { name: "Vercel", icon: "vercel.png", level: 85 },
       { name: "GitHub Actions", icon: "github.png", level: 70 },
       { name: "CI/CD", icon: "cicd.png", level: 70 }
-    ]
+    ],
+    "Auth": [
+      { name: "Supabase Auth", icon: "supabase.png", level: 80 },
+      { name: "Firebase Auth", icon: "firebase.png", level: 80 },
+      { name: "Auth0", icon: "auth0.png", level: 75 },
+      { name: "JWT", icon: "jwt.png", level: 85 },
+      { name: "NextAuth.js", icon: "nextauth.png", level: 80 }
+  ]
   };
 
   return (
