@@ -138,6 +138,19 @@
   display: block;
 }
 
+.skill-icon img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 4px rgba(212, 175, 55, 0.3));
+  transition: all 0.3s ease;
+}
+
+.skill-card:hover .skill-icon img {
+  filter: drop-shadow(0 4px 8px rgba(212, 175, 55, 0.5)) brightness(1.1);
+  transform: scale(1.1);
+}
+
 .skill-name {
   font-size: 1.1rem;
   font-weight: 600;

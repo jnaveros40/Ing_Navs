@@ -6,9 +6,9 @@ const Skills = () => {
 
   const skillCategories = {
     Frontend: [
-      { name: "HTML/CSS", icon: "🌐", level: 95 },
-      { name: "JavaScript", icon: "⚡", level: 95 },
-      { name: "TypeScript", icon: "📘", level: 90 },
+      { name: "HTML/CSS", icon: "html.png", level: 95 },
+      { name: "JavaScript", icon: "js.png", level: 95 },
+      { name: "TypeScript", icon: "ts.png", level: 90 },
       { name: "React", icon: "⚛️", level: 95 },
       { name: "Next.js", icon: "🔺", level: 90 },
       { name: "Vue.js", icon: "🟢", level: 90 },
@@ -29,7 +29,7 @@ const Skills = () => {
     ],
     BBDD: [
       { name: "Firebase", icon: "🔥", level: 80 },
-      { name: "Supabase", icon: "☁️", level: 80 },
+      { name: "Supabase", icon: "supabase.png", level: 80 },
       { name: "PostgreSQL", icon: "🐘", level: 80 },
       { name: "MySQL", icon: "🐬", level: 75 },
     ],
@@ -70,7 +70,12 @@ const Skills = () => {
           <div className="skills-cards-grid">
             {skillCategories[activeTab].map((skill, index) => (
               <div key={index} className="skill-card">
-                <div className="skill-icon">{skill.icon}</div>
+                <div className="skill-icon">
+                  {skill.icon.endsWith('.png') ? 
+                    <img src={`/icons/${skill.icon}`} alt={skill.name} /> : 
+                    skill.icon
+                  }
+                </div>
                 <div className="skill-name">{skill.name}</div>
               </div>
             ))}
