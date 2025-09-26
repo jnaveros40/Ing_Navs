@@ -108,7 +108,7 @@ const Projects = () => {
       description: "Aplicación progresiva de turismo moderna que ofrece una experiencia completa para viajeros y exploradores. Incluye funcionalidades de búsqueda de destinos, planificación de viajes, gestión de reservas, galería de imágenes optimizada con Cloudinary, y autenticación segura. Diseño responsive y optimizada como PWA para acceso offline.",
       image: "/Projects/keki.jpg",
       technologies: ["TypeScript", "JavaScript", "HTML", "CSS", "Vite", "PWA", "Supabase", "Cloudinary"],
-      liveUrl: "#",
+      liveUrl: "https://keki-app.vercel.app/",
       githubUrl: "https://github.com/jnaveros40",
       status: "in development",
       category: "Tourism App"
