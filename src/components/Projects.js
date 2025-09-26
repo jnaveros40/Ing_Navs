@@ -101,6 +101,17 @@ const Projects = () => {
       githubUrl: "https://github.com/jnaveros40",
       status: "Ready",
       category: "Transport System"
+    },
+    {
+      id: 10,
+      title: "Keki",
+      description: "Aplicación progresiva de turismo moderna que ofrece una experiencia completa para viajeros y exploradores. Incluye funcionalidades de búsqueda de destinos, planificación de viajes, gestión de reservas, galería de imágenes optimizada con Cloudinary, y autenticación segura. Diseño responsive y optimizada como PWA para acceso offline.",
+      image: "/Projects/keki.jpg",
+      technologies: ["TypeScript", "JavaScript", "HTML", "CSS", "Vite", "PWA", "Supabase", "Cloudinary"],
+      liveUrl: "#",
+      githubUrl: "https://github.com/jnaveros40",
+      status: "in development",
+      category: "Tourism App"
     }
   ];
 
