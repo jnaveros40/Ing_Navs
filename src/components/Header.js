@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
+import { useLanguage } from '../contexts/LanguageContext';
+import LanguageToggle from './LanguageToggle';
 import './Header.css';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { t } = useLanguage();
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -21,14 +24,14 @@ const Header = () => {
           <h2>Ing Navs</h2>
         </div>
         
-       
+        
         
         <ul className={`nav-links ${isMenuOpen ? 'nav-links-open' : ''}`}>
-          <li><a href="#about" onClick={closeMenu}>Sobre mí</a></li>
-          <li><a href="#skills" onClick={closeMenu}>Habilidades</a></li>
-          <li><a href="#projects" onClick={closeMenu}>Proyectos</a></li>
-          <li><a href="#experience" onClick={closeMenu}>Experiencia</a></li>
-          <li><a href="#contact" onClick={closeMenu}>Contacto</a></li>
+          <li><a href="#about" onClick={closeMenu}>{t('about')}</a></li>
+          <li><a href="#skills" onClick={closeMenu}>{t('skills')}</a></li>
+          <li><a href="#projects" onClick={closeMenu}>{t('projects')}</a></li>
+          <li><a href="#experience" onClick={closeMenu}>{t('experience')}</a></li>
+          <li><a href="#contact" onClick={closeMenu}>{t('contact')}</a></li>
         </ul>
       </nav>
       
@@ -36,15 +39,14 @@ const Header = () => {
       
       <section className="hero">
         <div className="hero-content">
-          <h1>Hola, soy Juan Naveros</h1>
-          <h3>Ingeniero de Software & Desarrollador Full Stack</h3>
+          <h1>{t('heroTitle')}</h1>
+          <h3>{t('heroSubtitle')}</h3>
           <p>
-            Desarrollo soluciones web modernas y escalables utilizando las últimas tecnologías.
-            Apasionado por crear experiencias de usuario excepcionales.
+            {t('heroDescription')}
           </p>
           <div className="hero-buttons">
-            <a href="#projects" className="btn btn-primary">Ver Proyectos</a>
-            <a href="#contact" className="btn btn-secondary">Contáctame</a>
+            <a href="#projects" className="btn btn-primary">{t('viewProjects')}</a>
+            <a href="#contact" className="btn btn-secondary">{t('contactMe')}</a>
           </div>
         </div>
         <div className="hero-image">
