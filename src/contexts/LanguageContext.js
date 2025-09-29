@@ -66,6 +66,16 @@ const translations = {
     sendMessage: "Enviar Mensaje",
     messageSent: "¡Mensaje enviado! Te contactaré pronto.",
     
+    // Experience section
+    experienceTitle: "Experiencia Laboral",
+    experienceSubtitle: "Mi trayectoria profesional en el desarrollo de software",
+    
+    // Education section
+    educationTitle: "Educación & Certificaciones",
+    educationSubtitle: "Mi formación académica y certificaciones profesionales",
+    formalEducation: "Educación Formal",
+    certifications: "Certificaciones",
+    
     // Projects section
     projectsTitle: "Portafolio de Proyectos",
     projectsSubtitle: "Proyectos reales desarrollados con tecnologías modernas y mejores prácticas",
@@ -142,6 +152,16 @@ const translations = {
     messageLabel: "Message",
     sendMessage: "Send Message",
     messageSent: "Message sent! I'll contact you soon.",
+    
+    // Experience section
+    experienceTitle: "Work Experience",
+    experienceSubtitle: "My professional journey in software development",
+    
+    // Education section
+    educationTitle: "Education & Certifications",
+    educationSubtitle: "My academic background and professional certifications",
+    formalEducation: "Formal Education",
+    certifications: "Certifications",
     
     // Projects section
     projectsTitle: "Project Portfolio",
