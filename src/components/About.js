@@ -1,41 +1,38 @@
 import React from 'react';
+import { useLanguage } from '../contexts/LanguageContext';
 import './About.css';
 
 const About = () => {
+  const { t } = useLanguage();
+
   return (
     <section id="about" className="about">
       <div className="container">
         <div className="about-content">
           <div className="about-text">
-            <h2>Sobre mí</h2>
+            <h2>{t('aboutTitle')}</h2>
             <p className="lead">
-              Soy un Ingeniero de Software apasionado por crear soluciones digitales 
-              innovadoras y eficientes.
+              {t('aboutLead')}
             </p>
             <p>
-              Con más de 3 años de experiencia en el desarrollo web, me especializo 
-              en tecnologías modernas como React, Node.js y Python. Me encanta 
-              resolver problemas complejos y transformar ideas en productos digitales 
-              que impacten positivamente en la vida de las personas.
+              {t('aboutParagraph1')}
             </p>
             <p>
-              Cuando no estoy programando, me gusta mantenerme actualizado con las 
-              últimas tendencias tecnológicas, contribuir a proyectos open source 
-              y compartir conocimiento con la comunidad de desarrolladores.
+              {t('aboutParagraph2')}
             </p>
             
             <div className="about-stats">
               <div className="stat">
                 <h3>3+</h3>
-                <span>Años de experiencia</span>
+                <span>{t('yearsExperience')}</span>
               </div>
               <div className="stat">
                 <h3>15+</h3>
-                <span>Proyectos completados</span>
+                <span>{t('projectsCompleted')}</span>
               </div>
               <div className="stat">
                 <h3>10+</h3>
-                <span>Tecnologías dominadas</span>
+                <span>{t('technologiesMastered')}</span>
               </div>
             </div>
           </div>

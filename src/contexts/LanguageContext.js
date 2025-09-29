@@ -26,6 +26,30 @@ const translations = {
     viewProjects: "Ver Proyectos",
     contactMe: "Contáctame",
     
+    // About section
+    aboutTitle: "Sobre mí",
+    aboutLead: "Soy un Ingeniero de Software apasionado por crear soluciones digitales innovadoras y eficientes.",
+    aboutParagraph1: "Con más de 3 años de experiencia en el desarrollo web, me especializo en tecnologías modernas como React, Node.js y Python. Me encanta resolver problemas complejos y transformar ideas en productos digitales que impacten positivamente en la vida de las personas.",
+    aboutParagraph2: "Cuando no estoy programando, me gusta mantenerme actualizado con las últimas tendencias tecnológicas, contribuir a proyectos open source y compartir conocimiento con la comunidad de desarrolladores.",
+    yearsExperience: "Años de experiencia",
+    projectsCompleted: "Proyectos completados",
+    technologiesMastered: "Tecnologías dominadas",
+    
+    // Skills section
+    skillsTitle: "Habilidades Técnicas",
+    skillsSubtitle: "Tecnologías y herramientas que domino",
+    frontend: "Frontend",
+    backend: "Backend",
+    databases: "Bases de Datos",
+    toolsDevops: "Tools & DevOps",
+    auth: "Auth",
+    experienceCard: "Experiencia",
+    experienceText: "3+ años desarrollando aplicaciones web",
+    technologiesCard: "Tecnologías",
+    technologiesText: "15+ tecnologías dominadas",
+    specializationCard: "Especialización",
+    specializationText: "Full Stack & PWA Development",
+    
     // Projects section
     projectsTitle: "Portafolio de Proyectos",
     projectsSubtitle: "Proyectos reales desarrollados con tecnologías modernas y mejores prácticas",
@@ -62,6 +86,15 @@ const translations = {
     heroDescription: "I develop modern and scalable web solutions using the latest technologies. Passionate about creating exceptional user experiences.",
     viewProjects: "View Projects",
     contactMe: "Contact Me",
+    
+    // About section
+    aboutTitle: "About Me",
+    aboutLead: "I am a Software Engineer passionate about creating innovative and efficient digital solutions.",
+    aboutParagraph1: "With over 3 years of experience in web development, I specialize in modern technologies like React, Node.js and Python. I love solving complex problems and transforming ideas into digital products that positively impact people's lives.",
+    aboutParagraph2: "When I'm not coding, I enjoy staying updated with the latest tech trends, contributing to open source projects and sharing knowledge with the developer community.",
+    yearsExperience: "Years of experience",
+    projectsCompleted: "Projects completed",
+    technologiesMastered: "Technologies mastered",
     
     // Projects section
     projectsTitle: "Project Portfolio",
