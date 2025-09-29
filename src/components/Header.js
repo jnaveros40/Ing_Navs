@@ -24,7 +24,10 @@ const Header = () => {
           <h2>Ing Navs</h2>
         </div>
         
-        
+        <div className="nav-actions">
+          <LanguageToggle />
+          
+        </div>
         
         <ul className={`nav-links ${isMenuOpen ? 'nav-links-open' : ''}`}>
           <li><a href="#about" onClick={closeMenu}>{t('about')}</a></li>
