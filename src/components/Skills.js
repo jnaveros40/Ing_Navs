@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
+import { useLanguage } from '../contexts/LanguageContext';
 import './Skills.css';
 
 const Skills = () => {
   const [activeTab, setActiveTab] = useState('Frontend');
+  const { t } = useLanguage();
 
   const skillCategories = {
     Frontend: [
@@ -23,7 +25,7 @@ const Skills = () => {
       { name: "Laravel", icon: "laravel.png", level: 90 },
       { name: "Spring", icon: "spring.png", level: 75 }
     ],
-    "Bases de Datos": [
+    "Databases": [
       { name: "Firebase", icon: "firebase.png", level: 80 },
       { name: "Supabase", icon: "supabase.png", level: 80 },
       { name: "MongoDB", icon: "mongodb.png", level: 85 },
@@ -49,12 +51,23 @@ const Skills = () => {
   ]
   };
 
+  const getCategoryDisplayName = (category) => {
+    const categoryMap = {
+      'Frontend': t('frontend'),
+      'Backend': t('backend'),
+      'Databases': t('databases'),
+      'Tools & DevOps': t('toolsDevops'),
+      'Auth': t('auth')
+    };
+    return categoryMap[category] || category;
+  };
+
   return (
     <section id="skills" className="skills">
       <div className="container">
         <div className="skills-header">
-          <h2>Habilidades Técnicas</h2>
-          <p>Tecnologías y herramientas que domino</p>
+          <h2>{t('skillsTitle')}</h2>
+          <p>{t('skillsSubtitle')}</p>
         </div>
         
         <div className="skills-tabs">
@@ -64,7 +77,7 @@ const Skills = () => {
               className={`tab-button ${activeTab === category ? 'active' : ''}`}
               onClick={() => setActiveTab(category)}
             >
-              {category}
+              {getCategoryDisplayName(category)}
             </button>
           ))}
         </div>
@@ -87,16 +100,16 @@ const Skills = () => {
         
         <div className="skills-summary">
           <div className="summary-card">
-            <h4>Experiencia</h4>
-            <p>3+ años desarrollando aplicaciones web</p>
+            <h4>{t('experienceCard')}</h4>
+            <p>{t('experienceText')}</p>
           </div>
           <div className="summary-card">
-            <h4>Tecnologías</h4>
-            <p>15+ tecnologías dominadas</p>
+            <h4>{t('technologiesCard')}</h4>
+            <p>{t('technologiesText')}</p>
           </div>
           <div className="summary-card">
-            <h4>Especialización</h4>
-            <p>Full Stack & PWA Development</p>
+            <h4>{t('specializationCard')}</h4>
+            <p>{t('specializationText')}</p>
           </div>
         </div>
       </div>

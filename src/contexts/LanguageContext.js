@@ -50,6 +50,22 @@ const translations = {
     specializationCard: "Especialización",
     specializationText: "Full Stack & PWA Development",
     
+    // Contact section
+    contactTitle: "Contáctame",
+    contactSubtitle: "¿Tienes un proyecto en mente? ¡Hablemos!",
+    contactInfo: "Información de Contacto",
+    emailLabel: "Email",
+    whatsappLabel: "WhatsApp",
+    locationLabel: "Ubicación",
+    locationText: "Colombia",
+    followMe: "Sígueme en",
+    nameLabel: "Nombre",
+    emailFieldLabel: "Email",
+    subjectLabel: "Asunto",
+    messageLabel: "Mensaje",
+    sendMessage: "Enviar Mensaje",
+    messageSent: "¡Mensaje enviado! Te contactaré pronto.",
+    
     // Projects section
     projectsTitle: "Portafolio de Proyectos",
     projectsSubtitle: "Proyectos reales desarrollados con tecnologías modernas y mejores prácticas",
@@ -95,6 +111,37 @@ const translations = {
     yearsExperience: "Years of experience",
     projectsCompleted: "Projects completed",
     technologiesMastered: "Technologies mastered",
+    
+    // Skills section
+    skillsTitle: "Technical Skills",
+    skillsSubtitle: "Technologies and tools I master",
+    frontend: "Frontend",
+    backend: "Backend",
+    databases: "Databases",
+    toolsDevops: "Tools & DevOps",
+    auth: "Auth",
+    experienceCard: "Experience",
+    experienceText: "3+ years developing web applications",
+    technologiesCard: "Technologies",
+    technologiesText: "15+ technologies mastered",
+    specializationCard: "Specialization",
+    specializationText: "Full Stack & PWA Development",
+    
+    // Contact section
+    contactTitle: "Contact Me",
+    contactSubtitle: "Do you have a project in mind? Let's talk!",
+    contactInfo: "Contact Information",
+    emailLabel: "Email",
+    whatsappLabel: "WhatsApp",
+    locationLabel: "Location",
+    locationText: "Colombia",
+    followMe: "Follow me on",
+    nameLabel: "Name",
+    emailFieldLabel: "Email",
+    subjectLabel: "Subject",
+    messageLabel: "Message",
+    sendMessage: "Send Message",
+    messageSent: "Message sent! I'll contact you soon.",
     
     // Projects section
     projectsTitle: "Project Portfolio",
