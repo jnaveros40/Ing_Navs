@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
+import { useLanguage } from '../contexts/LanguageContext';
 import './PWAInstallPrompt.css';
 
 const PWAInstallPrompt = () => {
+  const { t } = useLanguage();
   const [deferredPrompt, setDeferredPrompt] = useState(null);
   const [showInstallPrompt, setShowInstallPrompt] = useState(false);
   const [isInstalled, setIsInstalled] = useState(false);
@@ -85,12 +87,12 @@ const PWAInstallPrompt = () => {
           <img src="/web/icon-192.png" alt="Juan Naveros Portafolio" />
         </div>
         <div className="pwa-prompt-text">
-          <h4>Instalar Portafolio</h4>
-          <p>Instala el portafolio de Juan Naveros para acceso rápido y uso offline</p>
+          <h4>{t('installPortfolio')}</h4>
+          <p>{t('installDescription')}</p>
         </div>
         <div className="pwa-prompt-buttons">
           <button className="pwa-install-btn" onClick={handleInstallClick}>
-            Instalar
+            {t('install')}
           </button>
           <button className="pwa-dismiss-btn" onClick={handleDismiss}>
             ×

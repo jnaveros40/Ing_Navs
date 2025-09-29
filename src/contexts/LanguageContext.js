@@ -76,6 +76,11 @@ const translations = {
     formalEducation: "Educación Formal",
     certifications: "Certificaciones",
     
+    // PWA Install Prompt
+    installPortfolio: "Instalar Portafolio",
+    installDescription: "Instala el portafolio de Juan Naveros para acceso rápido y uso offline",
+    install: "Instalar",
+    
     // Projects section
     projectsTitle: "Portafolio de Proyectos",
     projectsSubtitle: "Proyectos reales desarrollados con tecnologías modernas y mejores prácticas",
@@ -162,6 +167,11 @@ const translations = {
     educationSubtitle: "My academic background and professional certifications",
     formalEducation: "Formal Education",
     certifications: "Certifications",
+    
+    // PWA Install Prompt
+    installPortfolio: "Install Portfolio",
+    installDescription: "Install Juan Naveros' portfolio for quick access and offline use",
+    install: "Install",
     
     // Projects section
     projectsTitle: "Project Portfolio",

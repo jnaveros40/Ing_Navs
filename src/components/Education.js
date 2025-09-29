@@ -1,36 +1,59 @@
 import React from 'react';
+import { useLanguage } from '../contexts/LanguageContext';
 import './Education.css';
 
 const Education = () => {
+  const { t, language } = useLanguage();
+
   const education = [
     {
       id: 1,
-      degree: "Ingeniería de Mantenimiento",
+      degree: {
+        es: "Ingeniería de Mantenimiento",
+        en: "Maintenance Engineering"
+      },
       institution: "Universidad de San Gil",
       period: "2018 - 2022",
       location: "Santander, Colombia",
-      description: "Especialización en desarrollo de software y arquitectura de sistemas",
-      achievements: ["Tesis sobre sistemas de adquisiscion, mantenimiento y control de datos en tiempo real", "Promedio: 4.2/5.0"]
+      description: {
+        es: "Especialización en desarrollo de software y arquitectura de sistemas",
+        en: "Specialization in software development and systems architecture"
+      },
+      achievements: {
+        es: ["Tesis sobre sistemas de adquisición, mantenimiento y control de datos en tiempo real", "Promedio: 4.6/5.0"],
+        en: ["Thesis on real-time data acquisition, maintenance and control systems", "GPA: 4.6/5.0"]
+      }
     },
     {
       id: 2,
-      degree: "Tecnólogo en Mantenimiento Industrial",
+      degree: {
+        es: "Tecnólogo en Mantenimiento Industrial",
+        en: "Industrial Maintenance Technologist"
+      },
       institution: "Universidad de Ibagué",
       period: "2016 - 2018",
       location: "Ibagué, Colombia",
-      description: "Fundamentos de programación y desarrollo web",
-      achievements: ["Proyecto final destacado", "Certificación en desarrollo web"]
+      description: {
+        es: "Fundamentos de programación y desarrollo web",
+        en: "Programming fundamentals and web development"
+      },
+      achievements: {
+        es: ["Proyecto final destacado", "Certificación en desarrollo web"],
+        en: ["Outstanding final project", "Web development certification"]
+      }
     }
   ];
 
   const certifications = [
     {
       id: 1,
-      title: "Desarrollador de aplicaciones WEB",
+      title: {
+        es: "Desarrollador de aplicaciones WEB",
+        en: "WEB Application Developer"
+      },
       issuer: "Universidad de Caldas",
       date: "2022",
       credentialId: "U-CALDAS-789"
-      
     },
     {
       id: 2,
@@ -41,7 +64,10 @@ const Education = () => {
     },
     {
       id: 3,
-      title: "Formulacion y Evaluacion de Proyectos",
+      title: {
+        es: "Formulación y Evaluación de Proyectos",
+        en: "Project Formulation and Evaluation"
+      },
       issuer: "Sena",
       date: "2022",
       credentialId: "NODE-456789"
@@ -59,27 +85,29 @@ const Education = () => {
     <section id="education" className="education">
       <div className="container">
         <div className="education-header">
-          <h2>Educación & Certificaciones</h2>
-          <p>Mi formación académica y certificaciones profesionales</p>
+          <h2>{t('educationTitle')}</h2>
+          <p>{t('educationSubtitle')}</p>
         </div>
         
         <div className="education-content">
           {/* Educación Formal */}
           <div className="education-section">
-            <h3>Educación Formal</h3>
+            <h3>{t('formalEducation')}</h3>
             <div className="education-list">
               {education.map(edu => (
                 <div key={edu.id} className="education-card">
                   <div className="card-header">
-                    <h4>{edu.degree}</h4>
+                    <h4>{typeof edu.degree === 'object' ? edu.degree[language] : edu.degree}</h4>
                     <span className="period">{edu.period}</span>
                   </div>
                   <div className="card-body">
                     <h5>{edu.institution}</h5>
                     <p className="location">{edu.location}</p>
-                    <p className="description">{edu.description}</p>
+                    <p className="description">
+                      {typeof edu.description === 'object' ? edu.description[language] : edu.description}
+                    </p>
                     <ul className="achievements">
-                      {edu.achievements.map((achievement, idx) => (
+                      {(typeof edu.achievements === 'object' ? edu.achievements[language] : edu.achievements).map((achievement, idx) => (
                         <li key={idx}>{achievement}</li>
                       ))}
                     </ul>
@@ -91,17 +119,16 @@ const Education = () => {
 
           {/* Certificaciones */}
           <div className="certifications-section">
-            <h3>Certificaciones</h3>
+            <h3>{t('certifications')}</h3>
             <div className="certifications-grid">
               {certifications.map(cert => (
                 <div key={cert.id} className="certification-card">
                   <div className="cert-header">
-                    <h4>{cert.title}</h4>
+                    <h4>{typeof cert.title === 'object' ? cert.title[language] : cert.title}</h4>
                     <span className="cert-date">{cert.date}</span>
                   </div>
                   <div className="cert-body">
                     <p className="issuer">{cert.issuer}</p>
-                    
                   </div>
                 </div>
               ))}
