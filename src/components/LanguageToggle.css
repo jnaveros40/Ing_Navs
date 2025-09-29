@@ -173,3 +173,51 @@
 .language-toggle:focus:not(:hover) {
   transform: scale(1.02);
 }
+
+/* Animación especial para el cambio de idioma */
+.language-toggle.changing {
+  transform: scale(0.95);
+  opacity: 0.8;
+}
+
+.language-toggle.changing .language-icon {
+  transform: rotateY(180deg);
+}
+
+.language-toggle.changing .language-text {
+  opacity: 0.6;
+}
+
+/* Efectos de partículas (opcional) */
+.language-toggle::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  background: radial-gradient(circle, rgba(212, 175, 55, 0.6) 0%, transparent 70%);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.language-toggle:active::after {
+  width: 100px;
+  height: 100px;
+  opacity: 1;
+  transition: all 0.1s ease;
+}
+
+/* Mejora para pantallas de alta resolución */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .language-toggle {
+    border-width: 1.5px;
+  }
+  
+  .language-icon {
+    filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.4));
+  }
+}

@@ -6,6 +6,7 @@ const LanguageToggle = () => {
   const { language, toggleLanguage } = useLanguage();
   const [isPulsing, setIsPulsing] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
+  const [isChanging, setIsChanging] = useState(false);
 
   // Efecto de pulso para llamar la atención al cargar la página
   useEffect(() => {
@@ -18,7 +19,16 @@ const LanguageToggle = () => {
   }, []);
 
   const handleToggle = () => {
-    toggleLanguage();
+    setIsChanging(true);
+    
+    // Animación de cambio
+    setTimeout(() => {
+      toggleLanguage();
+      setTimeout(() => {
+        setIsChanging(false);
+      }, 200);
+    }, 150);
+
     // Pequeña vibración en dispositivos móviles
     if (navigator.vibrate) {
       navigator.vibrate(50);
@@ -48,13 +58,14 @@ const LanguageToggle = () => {
   return (
     <div className="language-toggle-container">
       <button 
-        className={`language-toggle ${isPulsing ? 'pulse' : ''}`}
+        className={`language-toggle ${isPulsing ? 'pulse' : ''} ${isChanging ? 'changing' : ''}`}
         onClick={handleToggle}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
         aria-label={getAriaLabel()}
         title={getTooltipText()}
         type="button"
+        disabled={isChanging}
       >
         <span className="language-icon">
           {getFlagEmoji()}
