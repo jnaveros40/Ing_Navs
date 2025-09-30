@@ -8,13 +8,15 @@ const Skills = () => {
 
   const skillCategories = {
     Frontend: [
-      { name: "HTML/CSS", icon: "html.png", level: 95 },
+      { name: "HTML", icon: "html.png", level: 95 },
+      { name: "CSS", icon: "css.png", level: 95 },
       { name: "JavaScript", icon: "js.png", level: 95 },
       { name: "TypeScript", icon: "ts.png", level: 90 },
       { name: "React", icon: "react.png", level: 95 },
       { name: "Next.js", icon: "nextjs.png", level: 90 },
       { name: "Vue.js", icon: "vue.png", level: 90 },
-      { name: "Tailwind CSS", icon: "tailwind.png", level: 85 }
+      { name: "Tailwind CSS", icon: "tailwind.png", level: 85 },
+      { name: "Flutter", icon: "flutter.png", level: 85 }
     ],
     Backend: [
       { name: "Node.js", icon: "node.png", level: 90 },
