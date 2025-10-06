@@ -147,7 +147,7 @@ const Projects = () => {
       category: "tourismApp"
     },
     {
-      id: 2,
+      id: 11,
       title: "Chocolata",
       description: {
         es: "Aplicación web progresiva (PWA) para catálogo de chocolates artesanales premium. Desarrollada con React, TypeScript y Vite. Incluye galería responsive, funcionalidad offline, instalación nativa, contacto WhatsApp integrado y diseño glassmorphism con temática chocolate.",
