@@ -153,10 +153,10 @@ const Projects = () => {
         es: "Aplicación web progresiva (PWA) para catálogo de chocolates artesanales premium. Desarrollada con React, TypeScript y Vite. Incluye galería responsive, funcionalidad offline, instalación nativa, contacto WhatsApp integrado y diseño glassmorphism con temática chocolate.",
         en: "Progressive Web App (PWA) for premium artisanal chocolate catalog. Developed with React, TypeScript and Vite. Includes responsive gallery, offline functionality, native installation, integrated WhatsApp contact and glassmorphism design with chocolate theme."
       },
-      image: "/Projects/chocolat.jpg",
+      image: "/Projects/chocolat.png",
       technologies: ["React", "TypeScript", "Vite", "PWA", "Service Worker", "CSS3", "Responsive Design"],
-      liveUrl: "chocolat-inky.vercel.app",
-      githubUrl: "https://github.com/jnaveros40/chocolata",
+      liveUrl: "https://chocolat-inky.vercel.app",
+      githubUrl: "https://github.com/jnaveros40/chocolat",
       status: "ready",
       category: "PWA"
     }
