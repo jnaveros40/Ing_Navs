@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/React-19.1.1-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React">
   <img src="https://img.shields.io/badge/PWA-Enabled-4CAF50?style=for-the-badge&logo=pwa&logoColor=white" alt="PWA">
   <img src="https://img.shields.io/badge/i18n-ES%20%7C%20EN-FF6B6B?style=for-the-badge" alt="Languages">
-  <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License">
+  
 </p>
 
 <p align="center">
@@ -27,7 +27,7 @@
 
 ## 🎯 **Demo**
 
-🔗 **[Ver Portfolio en Vivo](https://ing-navs.com)** 
+🔗 **[Ver Portfolio en Vivo](https://ingnavs.vercel.app/)** 
 
 ![Portfolio Preview](https://via.placeholder.com/800x400/1a1a2e/ffffff?text=Portfolio+Preview)
 
@@ -70,132 +70,157 @@
 </tr>
 </table>
 
-## 🛠️ Tecnologías Utilizadas
+## 🛠️ **Tecnologías Utilizadas**
 
-### Frontend
-- React 19.1.1
-- CSS3 con animaciones personalizadas
-- Context API para gestión de estado
-- React Router DOM para navegación
+<div align="center">
 
-### Herramientas
-- Create React App como base
-- Workbox para funcionalidades PWA
-- Testing Library para pruebas
+### **Frontend**
+<p>
+<img src="https://img.shields.io/badge/React-19.1.1-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React">
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+<img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white" alt="React Router">
+</p>
 
-## 📱 Secciones del Portfolio
+### **Herramientas & DevOps**
+<p>
+<img src="https://img.shields.io/badge/Create_React_App-09D3AC?style=for-the-badge&logo=create-react-app&logoColor=white" alt="CRA">
+<img src="https://img.shields.io/badge/Workbox-FF6D00?style=for-the-badge&logo=workbox&logoColor=white" alt="Workbox">
+<img src="https://img.shields.io/badge/Testing_Library-E33332?style=for-the-badge&logo=testing-library&logoColor=white" alt="Testing Library">
+<img src="https://img.shields.io/badge/PWA-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white" alt="PWA">
+</p>
 
-- **Header**: Navegación principal con toggle de idioma
-- **About**: Información personal y profesional
-- **Skills**: Tecnologías organizadas por categorías (Frontend, Backend, Databases, Tools & DevOps, Auth)
-- **Experience**: Experiencia laboral y profesional
-- **Education**: Formación académica
-- **Projects**: Proyectos destacados
-- **Contact**: Información de contacto
+</div>
 
-## 🌐 Características de Internacionalización
+## 📱 **Secciones del Portfolio**
 
-El sitio soporta dos idiomas:
-- **Español** (es)
-- **English** (en)
+<div align="center">
 
-La selección de idioma se mantiene persistente durante la sesión del usuario.
+| Sección | Descripción | Funcionalidades |
+|---------|-------------|----------------|
+| 🏠 **Header** | Navegación principal | Toggle de idioma, navegación suave |
+| 👨‍💻 **About** | Información personal | Presentación profesional |
+| 🛠️ **Skills** | Habilidades técnicas | Categorías: Frontend, Backend, DB, DevOps, Auth |
+| 💼 **Experience** | Experiencia laboral | Timeline de trabajos |
+| 🎓 **Education** | Formación académica | Estudios y certificaciones |
+| 🚀 **Projects** | Proyectos destacados | Portfolio de trabajos |
+| 📧 **Contact** | Información de contacto | Formulario y redes sociales |
 
-## 🚀 Instalación y Configuración
+</div>
 
-### Prerrequisitos
-- Node.js (v14 o superior)
-- npm o yarn
+## 🌐 **Internacionalización**
 
-### Instalación
+<div align="center">
 
-1. Clona el repositorio:
+<table>
+<tr>
+<td align="center" width="50%">
+<img src="https://img.shields.io/badge/🇪🇸_Español-FF6B6B?style=for-the-badge" alt="Spanish">
+<br><strong>Idioma por defecto</strong>
+<br>Interfaz completa en español
+</td>
+<td align="center" width="50%">
+<img src="https://img.shields.io/badge/🇺🇸_English-4ECDC4?style=for-the-badge" alt="English">
+<br><strong>Soporte internacional</strong>
+<br>Traducción completa al inglés
+</td>
+</tr>
+</table>
+
+> 💡 **La selección de idioma se mantiene persistente durante toda la sesión del usuario**
+
+</div>
+
+## 🚀 **Instalación y Configuración**
+
+### 📋 **Prerrequisitos**
+<p>
+<img src="https://img.shields.io/badge/Node.js-v14+-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
+<img src="https://img.shields.io/badge/npm-or_yarn-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm">
+</p>
+
+### ⚡ **Instalación Rápida**
+
 ```bash
+# 1️⃣ Clona el repositorio
 git clone https://github.com/jnaveros40/Ing_Navs.git
 cd Ing_Navs
-```
 
-2. Instala las dependencias:
-```bash
+# 2️⃣ Instala las dependencias
 npm install
-```
 
-3. Inicia el servidor de desarrollo:
-```bash
+# 3️⃣ Inicia el servidor de desarrollo
 npm start
+
+# 4️⃣ Abre en tu navegador
+# http://localhost:3000
 ```
 
-4. Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
+<div align="center">
+<img src="https://img.shields.io/badge/¡Listo!-Portfolio_funcionando-4CAF50?style=for-the-badge" alt="Ready">
+</div>
 
-## 📜 Scripts Disponibles
+## 📜 **Scripts Disponibles**
 
-In the project directory, you can run:
+<table>
+<tr>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/npm_start-4CAF50?style=for-the-badge&logo=npm&logoColor=white" alt="Start">
+<br><strong>Desarrollo</strong>
+<br>Ejecuta en modo desarrollo
+<br><code>http://localhost:3000</code>
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/npm_test-FF9800?style=for-the-badge&logo=jest&logoColor=white" alt="Test">
+<br><strong>Pruebas</strong>
+<br>Ejecuta tests en modo watch
+<br>Interactivo y automático
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/npm_run_build-2196F3?style=for-the-badge&logo=webpack&logoColor=white" alt="Build">
+<br><strong>Producción</strong>
+<br>Construye para deploy
+<br>Optimizado y minificado
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/npm_run_eject-F44336?style=for-the-badge&logo=eject&logoColor=white" alt="Eject">
+<br><strong>Eject</strong>
+<br>Expone configuración
+<br>⚠️ Irreversible
+</td>
+</tr>
+</table>
 
-### `npm start`
+## 📂 **Estructura del Proyecto**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm start`
-
-Ejecuta la aplicación en modo desarrollo.\
-Abre [http://localhost:3000](http://localhost:3000) para verla en el navegador.
-
-La página se recarga automáticamente cuando realizas cambios.\
-También verás errores de lint en la consola.
-
-### `npm test`
-
-Inicia el ejecutor de pruebas en modo interactivo.\
-Consulta la sección sobre [ejecutar pruebas](https://facebook.github.io/create-react-app/docs/running-tests) para más información.
-
-### `npm run build`
-
-Construye la aplicación para producción en la carpeta `build`.\
-Agrupa React correctamente en modo producción y optimiza la compilación para el mejor rendimiento.
-
-La compilación está minificada y los nombres de archivo incluyen hashes.\
-¡Tu aplicación está lista para ser desplegada!
-
-Consulta la sección sobre [despliegue](https://facebook.github.io/create-react-app/docs/deployment) para más información.
-
-## 📂 Estructura del Proyecto
+<div align="center">
 
 ```
-src/
-├── components/          # Componentes React
-│   ├── About.js        # Sección sobre mí
-│   ├── Contact.js      # Formulario de contacto
-│   ├── Education.js    # Formación académica
-│   ├── Experience.js   # Experiencia laboral
-│   ├── Header.js       # Navegación principal
-│   ├── LanguageToggle.js # Selector de idioma
-│   ├── Projects.js     # Proyectos destacados
-│   ├── Skills.js       # Habilidades técnicas
-│   └── PWAInstallPrompt.js # Prompt instalación PWA
-├── contexts/           # Context API
-│   └── LanguageContext.js # Gestión de idiomas
-├── App.js             # Componente principal
-└── index.js           # Punto de entrada
+🗂️ ing_navs/
+├── 📁 public/                    # Archivos públicos
+│   ├── 🖼️ icons/               # Iconos de tecnologías
+│   ├── 📱 android/              # Iconos PWA Android
+│   ├── 🍎 ios/                  # Iconos PWA iOS
+│   └── 📄 manifest.json         # Configuración PWA
+├── 📁 src/
+│   ├── 📁 components/           # Componentes React
+│   │   ├── 🏠 Header.js         # Navegación principal
+│   │   ├── 👨‍💻 About.js          # Información personal
+│   │   ├── 🛠️ Skills.js         # Habilidades técnicas
+│   │   ├── 💼 Experience.js     # Experiencia laboral
+│   │   ├── 🎓 Education.js      # Formación académica
+│   │   ├── 🚀 Projects.js       # Proyectos destacados
+│   │   ├── 📧 Contact.js        # Formulario contacto
+│   │   ├── 🌐 LanguageToggle.js # Selector idioma
+│   │   └── 📱 PWAInstallPrompt.js # Prompt instalación
+│   ├── 📁 contexts/
+│   │   └── 🌍 LanguageContext.js # Gestión idiomas
+│   ├── ⚛️ App.js                # Componente principal
+│   └── 🎯 index.js              # Punto de entrada
+└── 📄 README.md                 # Este archivo
 ```
+
+</div>
 
 ## 🌟 Funcionalidades PWA
 
