@@ -222,14 +222,36 @@ npm start
 
 </div>
 
-## 🌟 Funcionalidades PWA
+## 🌟 **Funcionalidades PWA**
 
-Esta aplicación es una Progressive Web App que incluye:
+<div align="center">
 
-- **Instalable**: Se puede instalar en dispositivos móviles y escritorio
-- **Offline**: Funcionalidad básica disponible sin conexión
-- **Responsive**: Adaptable a cualquier tamaño de pantalla
-- **Rápida**: Carga optimizada y cache inteligente
+<table>
+<tr>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/📱-Instalable-4CAF50?style=for-the-badge" alt="Installable">
+<br><strong>Instalable</strong>
+<br>Se puede instalar en móviles y escritorio como app nativa
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/📶-Offline-FF6B6B?style=for-the-badge" alt="Offline">
+<br><strong>Funciona Offline</strong>
+<br>Funcionalidad básica disponible sin conexión
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/📐-Responsive-2196F3?style=for-the-badge" alt="Responsive">
+<br><strong>Responsive</strong>
+<br>Se adapta a cualquier tamaño de pantalla
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/⚡-Rápida-FF9800?style=for-the-badge" alt="Fast">
+<br><strong>Alto Rendimiento</strong>
+<br>Carga optimizada y cache inteligente
+</td>
+</tr>
+</table>
+
+</div>
 
 ## 🤝 Contribuciones
 
