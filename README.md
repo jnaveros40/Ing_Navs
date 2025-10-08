@@ -299,12 +299,12 @@ git push origin feature/AmazingFeature
 <img src="https://img.shields.io/badge/🌐_Portfolio-ingnavs.vercel.app-4CAF50?style=for-the-badge" alt="Portfolio">
 </a>
 <a href="mailto:jnaveros40@gmail.com">
-<img src="https://img.shields.io/badge/�_Email-jnaveros40@gmail.com-D44638?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+<img src="https://img.shields.io/badge/_Email-jnaveros40@gmail.com-D44638?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
 </a>
 </p>
 
 <p>
-<a href="https://linkedin.com/in/juan-naveros">
+<a href="https://www.linkedin.com/in/juan-guillermo-naveros-jimenez-38b0ba185/">
 <img src="https://img.shields.io/badge/💼_LinkedIn-juan--naveros-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
 </a>
 <a href="https://github.com/jnaveros40">
