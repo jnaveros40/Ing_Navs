@@ -1,8 +1,73 @@
-# Getting Started with Create React App
+# 💼 Ing Navs - Portfolio Personal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Un portafolio web moderno y responsivo construido con React, que presenta mis habilidades, experiencia y proyectos como ingeniero de software.
 
-## Available Scripts
+## 🚀 Características
+
+- **Diseño Responsivo**: Optimizado para todos los dispositivos
+- **PWA**: Aplicación Web Progresiva con capacidades offline
+- **Multiidioma**: Soporte para Español e Inglés
+- **Moderno**: Interfaz limpia y profesional
+- **Rápido**: Optimizado para rendimiento
+
+## 🛠️ Tecnologías Utilizadas
+
+### Frontend
+- React 19.1.1
+- CSS3 con animaciones personalizadas
+- Context API para gestión de estado
+- React Router DOM para navegación
+
+### Herramientas
+- Create React App como base
+- Workbox para funcionalidades PWA
+- Testing Library para pruebas
+
+## 📱 Secciones del Portfolio
+
+- **Header**: Navegación principal con toggle de idioma
+- **About**: Información personal y profesional
+- **Skills**: Tecnologías organizadas por categorías (Frontend, Backend, Databases, Tools & DevOps, Auth)
+- **Experience**: Experiencia laboral y profesional
+- **Education**: Formación académica
+- **Projects**: Proyectos destacados
+- **Contact**: Información de contacto
+
+## 🌐 Características de Internacionalización
+
+El sitio soporta dos idiomas:
+- **Español** (es)
+- **English** (en)
+
+La selección de idioma se mantiene persistente durante la sesión del usuario.
+
+## 🚀 Instalación y Configuración
+
+### Prerrequisitos
+- Node.js (v14 o superior)
+- npm o yarn
+
+### Instalación
+
+1. Clona el repositorio:
+```bash
+git clone https://github.com/jnaveros40/Ing_Navs.git
+cd Ing_Navs
+```
+
+2. Instala las dependencias:
+```bash
+npm install
+```
+
+3. Inicia el servidor de desarrollo:
+```bash
+npm start
+```
+
+4. Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
+
+## 📜 Scripts Disponibles
 
 In the project directory, you can run:
 
@@ -29,42 +94,77 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### `npm start`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Ejecuta la aplicación en modo desarrollo.\
+Abre [http://localhost:3000](http://localhost:3000) para verla en el navegador.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+La página se recarga automáticamente cuando realizas cambios.\
+También verás errores de lint en la consola.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### `npm test`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Inicia el ejecutor de pruebas en modo interactivo.\
+Consulta la sección sobre [ejecutar pruebas](https://facebook.github.io/create-react-app/docs/running-tests) para más información.
 
-## Learn More
+### `npm run build`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Construye la aplicación para producción en la carpeta `build`.\
+Agrupa React correctamente en modo producción y optimiza la compilación para el mejor rendimiento.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+La compilación está minificada y los nombres de archivo incluyen hashes.\
+¡Tu aplicación está lista para ser desplegada!
 
-### Code Splitting
+Consulta la sección sobre [despliegue](https://facebook.github.io/create-react-app/docs/deployment) para más información.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📂 Estructura del Proyecto
 
-### Analyzing the Bundle Size
+```
+src/
+├── components/          # Componentes React
+│   ├── About.js        # Sección sobre mí
+│   ├── Contact.js      # Formulario de contacto
+│   ├── Education.js    # Formación académica
+│   ├── Experience.js   # Experiencia laboral
+│   ├── Header.js       # Navegación principal
+│   ├── LanguageToggle.js # Selector de idioma
+│   ├── Projects.js     # Proyectos destacados
+│   ├── Skills.js       # Habilidades técnicas
+│   └── PWAInstallPrompt.js # Prompt instalación PWA
+├── contexts/           # Context API
+│   └── LanguageContext.js # Gestión de idiomas
+├── App.js             # Componente principal
+└── index.js           # Punto de entrada
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🌟 Funcionalidades PWA
 
-### Making a Progressive Web App
+Esta aplicación es una Progressive Web App que incluye:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- **Instalable**: Se puede instalar en dispositivos móviles y escritorio
+- **Offline**: Funcionalidad básica disponible sin conexión
+- **Responsive**: Adaptable a cualquier tamaño de pantalla
+- **Rápida**: Carga optimizada y cache inteligente
 
-### Advanced Configuration
+## 🤝 Contribuciones
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Las contribuciones son bienvenidas. Para cambios importantes:
 
-### Deployment
+1. Fork el proyecto
+2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
+3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
+4. Push a la rama (`git push origin feature/AmazingFeature`)
+5. Abre un Pull Request
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📧 Contacto
 
-### `npm run build` fails to minify
+**Juan Naveros** - Ingeniero de Software
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- 🌐 Portfolio: [ing-navs.com](https://ing-navs.com)
+- 📧 Email: jnaveros40@gmail.com
+- 💼 LinkedIn: [linkedin.com/in/juan-naveros](https://linkedin.com/in/juan-naveros)
+- 🐱 GitHub: [github.com/jnaveros40](https://github.com/jnaveros40)
+
+---
+
+⭐ ¡Dale una estrella al proyecto si te gustó!
