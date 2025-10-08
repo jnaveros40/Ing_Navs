@@ -1,14 +1,74 @@
-# 💼 Ing Navs - Portfolio Personal
+<div align="center">
 
-Un portafolio web moderno y responsivo construido con React, que presenta mis habilidades, experiencia y proyectos como ingeniero de software.
+# 💼 **Ing Navs - Portfolio Personal**
 
-## 🚀 Características
+<p align="center">
+  <img src="https://img.shields.io/badge/React-19.1.1-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React">
+  <img src="https://img.shields.io/badge/PWA-Enabled-4CAF50?style=for-the-badge&logo=pwa&logoColor=white" alt="PWA">
+  <img src="https://img.shields.io/badge/i18n-ES%20%7C%20EN-FF6B6B?style=for-the-badge" alt="Languages">
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License">
+</p>
 
-- **Diseño Responsivo**: Optimizado para todos los dispositivos
-- **PWA**: Aplicación Web Progresiva con capacidades offline
-- **Multiidioma**: Soporte para Español e Inglés
-- **Moderno**: Interfaz limpia y profesional
-- **Rápido**: Optimizado para rendimiento
+<p align="center">
+  <strong>Un portafolio web moderno y responsivo que presenta mis habilidades, experiencia y proyectos como ingeniero de software.</strong>
+</p>
+
+<p align="center">
+  <a href="#-demo">Demo</a> •
+  <a href="#-características">Características</a> •
+  <a href="#-instalación">Instalación</a> •
+  <a href="#-tecnologías">Tecnologías</a> •
+  <a href="#-contacto">Contacto</a>
+</p>
+
+---
+
+</div>
+
+## 🎯 **Demo**
+
+🔗 **[Ver Portfolio en Vivo](https://ing-navs.com)** 
+
+![Portfolio Preview](https://via.placeholder.com/800x400/1a1a2e/ffffff?text=Portfolio+Preview)
+
+## 🚀 **Características**
+
+<table>
+<tr>
+<td align="center" width="33%">
+<img src="https://img.shields.io/badge/-Responsive-4CAF50?style=for-the-badge&logo=responsive&logoColor=white" alt="Responsive">
+<br><strong>Diseño Responsivo</strong>
+<br>Optimizado para todos los dispositivos
+</td>
+<td align="center" width="33%">
+<img src="https://img.shields.io/badge/-PWA-FF6B6B?style=for-the-badge&logo=pwa&logoColor=white" alt="PWA">
+<br><strong>Progressive Web App</strong>
+<br>Instalable y funciona offline
+</td>
+<td align="center" width="33%">
+<img src="https://img.shields.io/badge/-i18n-2196F3?style=for-the-badge&logo=translate&logoColor=white" alt="i18n">
+<br><strong>Multiidioma</strong>
+<br>Español e Inglés
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<img src="https://img.shields.io/badge/-Modern-9C27B0?style=for-the-badge&logo=design&logoColor=white" alt="Modern">
+<br><strong>Interfaz Moderna</strong>
+<br>Diseño limpio y profesional
+</td>
+<td align="center" width="33%">
+<img src="https://img.shields.io/badge/-Fast-FF9800?style=for-the-badge&logo=speed&logoColor=white" alt="Fast">
+<br><strong>Alto Rendimiento</strong>
+<br>Optimizado para velocidad
+</td>
+<td align="center" width="33%">
+<img src="https://img.shields.io/badge/-Interactive-E91E63?style=for-the-badge&logo=animation&logoColor=white" alt="Interactive">
+<br><strong>Interactivo</strong>
+<br>Animaciones y transiciones suaves
+</td>
+</tr>
+</table>
 
 ## 🛠️ Tecnologías Utilizadas
 
