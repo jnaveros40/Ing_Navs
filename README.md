@@ -287,16 +287,6 @@ git push origin feature/AmazingFeature
 
 ---
 
-## 📄 **Licencia**
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="MIT License">
-
-**Este proyecto está bajo la Licencia MIT**
-
-</div>
-
 ## 📧 **Contacto**
 
 <div align="center">
@@ -305,8 +295,8 @@ git push origin feature/AmazingFeature
 #### *Ingeniero de Software*
 
 <p>
-<a href="https://ing-navs.com">
-<img src="https://img.shields.io/badge/🌐_Portfolio-ing--navs.com-4CAF50?style=for-the-badge" alt="Portfolio">
+<a href="https://ingnavs.vercel.app/">
+<img src="https://img.shields.io/badge/🌐_Portfolio-ingnavs.vercel.app-4CAF50?style=for-the-badge" alt="Portfolio">
 </a>
 <a href="mailto:jnaveros40@gmail.com">
 <img src="https://img.shields.io/badge/�_Email-jnaveros40@gmail.com-D44638?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
