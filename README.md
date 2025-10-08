@@ -305,7 +305,7 @@ git push origin feature/AmazingFeature
 
 <p>
 <a href="https://www.linkedin.com/in/juan-guillermo-naveros-jimenez-38b0ba185/">
-<img src="https://img.shields.io/badge/💼_LinkedIn-juan-guillermo-naveros-jimenez-38b0ba185?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+<img src="https://img.shields.io/badge/💼_LinkedIn-juan--naveros-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
 </a>
 <a href="https://github.com/jnaveros40">
 <img src="https://img.shields.io/badge/🐱_GitHub-jnaveros40-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
