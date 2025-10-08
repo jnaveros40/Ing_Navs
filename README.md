@@ -29,8 +29,6 @@
 
 🔗 **[Ver Portfolio en Vivo](https://ingnavs.vercel.app/)** 
 
-![Portfolio Preview](https://via.placeholder.com/800x400/1a1a2e/ffffff?text=Portfolio+Preview)
-
 ## 🚀 **Características**
 
 <table>
@@ -253,25 +251,86 @@ npm start
 
 </div>
 
-## 🤝 Contribuciones
+## 🤝 **Contribuciones**
 
-Las contribuciones son bienvenidas. Para cambios importantes:
+<div align="center">
 
-1. Fork el proyecto
-2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
+**¡Las contribuciones son muy bienvenidas!** 🎉
 
-## 📧 Contacto
+<img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge" alt="PRs Welcome">
+<img src="https://img.shields.io/badge/Issues-Open-blue?style=for-the-badge" alt="Issues Open">
 
-**Juan Naveros** - Ingeniero de Software
+</div>
 
-- 🌐 Portfolio: [ing-navs.com](https://ing-navs.com)
-- 📧 Email: jnaveros40@gmail.com
-- 💼 LinkedIn: [linkedin.com/in/juan-naveros](https://linkedin.com/in/juan-naveros)
-- 🐱 GitHub: [github.com/jnaveros40](https://github.com/jnaveros40)
+### 🔄 **Proceso de Contribución**
+
+```bash
+# 1️⃣ Fork el proyecto
+# 2️⃣ Crea tu rama de feature
+git checkout -b feature/AmazingFeature
+
+# 3️⃣ Commit tus cambios
+git commit -m 'Add some AmazingFeature'
+
+# 4️⃣ Push a la rama
+git push origin feature/AmazingFeature
+
+# 5️⃣ Abre un Pull Request
+```
+
+### 📋 **Tipos de Contribuciones**
+- 🐛 **Bug fixes**
+- ✨ **Nuevas características** 
+- 📚 **Documentación**
+- 🎨 **Mejoras de UI/UX**
+- 🚀 **Optimizaciones de rendimiento**
 
 ---
 
-⭐ ¡Dale una estrella al proyecto si te gustó!
+## 📄 **Licencia**
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="MIT License">
+
+**Este proyecto está bajo la Licencia MIT**
+
+</div>
+
+## 📧 **Contacto**
+
+<div align="center">
+
+### **Juan Naveros** 
+#### *Ingeniero de Software*
+
+<p>
+<a href="https://ing-navs.com">
+<img src="https://img.shields.io/badge/🌐_Portfolio-ing--navs.com-4CAF50?style=for-the-badge" alt="Portfolio">
+</a>
+<a href="mailto:jnaveros40@gmail.com">
+<img src="https://img.shields.io/badge/�_Email-jnaveros40@gmail.com-D44638?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+</a>
+</p>
+
+<p>
+<a href="https://linkedin.com/in/juan-naveros">
+<img src="https://img.shields.io/badge/💼_LinkedIn-juan--naveros-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+</a>
+<a href="https://github.com/jnaveros40">
+<img src="https://img.shields.io/badge/🐱_GitHub-jnaveros40-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+</a>
+</p>
+
+---
+
+<h3>⭐ ¡Dale una estrella al proyecto si te gustó! ⭐</h3>
+
+<p>
+<img src="https://img.shields.io/github/stars/jnaveros40/Ing_Navs?style=social" alt="GitHub stars">
+<img src="https://img.shields.io/github/forks/jnaveros40/Ing_Navs?style=social" alt="GitHub forks">
+</p>
+
+**¡Gracias por visitar mi portfolio!** 🚀
+
+</div>
